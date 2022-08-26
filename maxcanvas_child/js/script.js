@@ -188,10 +188,15 @@ document.addEventListener( 'DOMContentLoaded', function () {
 		const maxFlowTableHeader = tableFilterModels.querySelector('thead th:nth-of-type(4) span');
 		const emptyWeightTableHeader = tableFilterModels.querySelector('thead th:nth-of-type(5) span');
 
-		const flangeSizeValueCollection = tableFilterModels.querySelectorAll('tbody > tr td:nth-of-type(2)');
-		const screenAreaValueCollection = tableFilterModels.querySelectorAll('tbody > tr td:nth-of-type(3)');
-		const maxFlowValueCollection = tableFilterModels.querySelectorAll('tbody > tr td:nth-of-type(4)');
-		const emptyWeightValueCollection = tableFilterModels.querySelectorAll('tbody > tr td:nth-of-type(5)');
+		const tableLength = tableFilterModels.querySelectorAll('tbody > tr ').length;
+		const flangeSizeValueCollection__m = tableFilterModels.querySelectorAll('tbody > tr td:nth-of-type(2) span:first-of-type'),
+			  flangeSizeValueCollection__i = tableFilterModels.querySelectorAll('tbody > tr td:nth-of-type(2) span:last-of-type');
+		const screenAreaValueCollection__m = tableFilterModels.querySelectorAll('tbody > tr td:nth-of-type(3) span:first-of-type'),
+			  screenAreaValueCollection__i = tableFilterModels.querySelectorAll('tbody > tr td:nth-of-type(3) span:last-of-type');
+		const maxFlowValueCollection__m = tableFilterModels.querySelectorAll('tbody > tr td:nth-of-type(4) span:first-of-type'),
+		 	  maxFlowValueCollection__i = tableFilterModels.querySelectorAll('tbody > tr td:nth-of-type(4) span:last-of-type');
+		const emptyWeightValueCollection__m = tableFilterModels.querySelectorAll('tbody > tr td:nth-of-type(5) span:first-of-type'),
+		      emptyWeightValueCollection__i = tableFilterModels.querySelectorAll('tbody > tr td:nth-of-type(5) span:last-of-type');
 
 		const unitsMeasurement = {
 			metric: {
@@ -271,6 +276,12 @@ document.addEventListener( 'DOMContentLoaded', function () {
 
 
 		/** Click select metric/imperal for "Filter Models" Table */
+		for( let item of flangeSizeValueCollection__i ){ item.innerHTML = Math.round( (+item.textContent / 25.4).toFixed(2) ).toFixed(1); } //convert mm --> in
+		for( let item of screenAreaValueCollection__i ){ item.innerHTML = Math.round( (+item.textContent * 10.764).toFixed(2) ).toFixed(1); } //convert m² --> sqft
+		for( let item of maxFlowValueCollection__i ){ item.innerHTML = Math.round( (+item.textContent / 4.4029).toFixed(2) ).toFixed(1); } //convert m³/h --> gpm
+		for( let item of emptyWeightValueCollection__i ){ item.innerHTML = Math.round( (+item.textContent * 2.205).toFixed(2) ).toFixed(1); } //convert kgs --> lbs
+
+
 		sortingSelectMetricFilterModels.onchange = function (event) { //console.log(event.currentTarget.value);
 			/*METRIC*/
 			if( event.currentTarget.value === 'metric' ){
@@ -278,6 +289,19 @@ document.addEventListener( 'DOMContentLoaded', function () {
 				screenAreaTableHeader.innerHTML = unitsMeasurement.metric.m2;
 				maxFlowTableHeader.innerHTML = unitsMeasurement.metric.m3h;
 				emptyWeightTableHeader.innerHTML = unitsMeasurement.metric.kgs;
+
+				for( i=0; i < tableLength; ++i ){
+					flangeSizeValueCollection__i[i].classList.add('display-none');
+					screenAreaValueCollection__i[i].classList.add('display-none');
+					maxFlowValueCollection__i[i].classList.add('display-none');
+					emptyWeightValueCollection__i[i].classList.add('display-none');
+
+					flangeSizeValueCollection__m[i].classList.remove('display-none');
+					screenAreaValueCollection__m[i].classList.remove('display-none');
+					maxFlowValueCollection__m[i].classList.remove('display-none');
+					emptyWeightValueCollection__m[i].classList.remove('display-none');
+				}
+
 			}
 			/*EMPERIAL*/
 			else{
@@ -286,8 +310,16 @@ document.addEventListener( 'DOMContentLoaded', function () {
 				maxFlowTableHeader.innerHTML = unitsMeasurement.imperial.gpm;
 				emptyWeightTableHeader.innerHTML = unitsMeasurement.imperial.lbs;
 
-				for( let item of flangeSizeValueCollection ){
-					item.innerHTML = (+item / 25.4);
+				for( i=0; i < tableLength; ++i ){
+					flangeSizeValueCollection__m[i].classList.add('display-none');
+					screenAreaValueCollection__m[i].classList.add('display-none');
+					maxFlowValueCollection__m[i].classList.add('display-none');
+					emptyWeightValueCollection__m[i].classList.add('display-none');
+
+					flangeSizeValueCollection__i[i].classList.remove('display-none');
+					screenAreaValueCollection__i[i].classList.remove('display-none');
+					maxFlowValueCollection__i[i].classList.remove('display-none');
+					emptyWeightValueCollection__i[i].classList.remove('display-none');
 				}
 			}
 		}

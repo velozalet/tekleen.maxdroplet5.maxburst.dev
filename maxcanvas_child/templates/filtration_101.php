@@ -7,59 +7,28 @@
 ?>
 <?php get_header();?>
 
+<!-- body-->
+<div class="page__body">
 	<h1>Filtration 101</h1>
-<?//=//dd(get_field('table'));?>
+	<section class="section">
+		<div class="about-company">
+			<div class="about-company__container container is-large">
+				<div class="about-company__inner">
+					<div class="about-company__main">
+						<?php get_template_part('templates/component/page-images');?>
+					</div>
+					<div class="about-company__aside">
+						<a class="about-company__link" href="#">< <?=get_queried_object()->post_title;?></a>
+						<?=get_field( 'text', get_the_ID() );?>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
-<?php
-$table = get_field( 'table' );
+	<?php get_template_part('templates/content/flexible-content');?>
+</div>
+<!-- end body-->
 
-if ( ! empty ( $table ) ) {
-
-	echo '<table border="0">';
-
-	if ( ! empty( $table['caption'] ) ) {
-
-		echo '<caption>' . $table['caption'] . '</caption>';
-	}
-
-	if ( ! empty( $table['header'] ) ) {
-
-		echo '<thead>';
-
-		echo '<tr>';
-
-		foreach ( $table['header'] as $th ) {
-
-			echo '<th>';
-			echo $th['c'];
-			echo '</th>';
-		}
-
-		echo '</tr>';
-
-		echo '</thead>';
-	}
-
-	echo '<tbody>';
-
-	foreach ( $table['body'] as $tr ) {
-
-		echo '<tr>';
-
-		foreach ( $tr as $td ) {
-
-			echo '<td>';
-			echo $td['c'];
-			echo '</td>';
-		}
-
-		echo '</tr>';
-	}
-
-	echo '</tbody>';
-
-	echo '</table>';
-}
-?>
 
 <?php get_footer();?>

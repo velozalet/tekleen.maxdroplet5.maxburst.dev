@@ -119,13 +119,6 @@
 				<div class="about-table__body filters-view-list">
 					<div class="about-table__tabs">
 
-						<div id="sorting__select_metric_filter_models" class="sorting__select">
-							<select class="js-select" data-placeholder="metric">
-								<option value="metric">metric</option>
-								<option value="imperial">imperial</option>
-							</select>
-						</div>
-
 						<!--__filter_models_tab-->
 						<?php get_template_part('templates/component/single_filters_filter_models_tabcontent');?>
 						<!--/__filter_models_tab-->

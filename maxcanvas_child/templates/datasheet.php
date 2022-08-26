@@ -13,15 +13,7 @@ get_header(); ?>
     <div class="promo">
         <div class="promo__container container is-large">
             <div class="promo__inner is-small">
-                <div class="promo__main">
-                    <h2 class="promo__title">Request a Quote</h2>
-                    <div class="promo__caption">
-                        <p>With over 40 years of experience dealing with all sorts of water filtration needs, Tekleen Engineers can help you find the perfect setup for your project.</p>
-                        <p>This form is for quote requests only. Please send all other correspondence to: <a href="mailto:info@tekleen.com">info@tekleen.com</a>
-                        </p>
-                    </div>
-                    <img class="promo__img" src="<?php echo get_stylesheet_directory_uri(); ?>/img/general/promo/6.png" alt="">
-                </div>
+				<?php get_template_part('templates/component/page-subheader');?>
             </div>
         </div>
     </div>
@@ -31,149 +23,47 @@ get_header(); ?>
         <div class="main__container container is-large">
             <div class="main__inner">
                 <div class="main__main">
-                    <form class="about-form main__form" action="#">
-                        <!-- row-->
-                        <div class="about-form__row">
-                            <h4 class="about-form__title">About You</h4>
-                            <div class="about-form__text">
-                                <p>The privacy and protection of your personal information are vitally important to us. Automatic Filters Inc. does not make personal information available to any third parties without your permission. For more information,
-                                    please review our <a href="#">Privacy Policy.</a>
-                                </p>
-                            </div>
-                            <div class="about-form__fields">
-                                <div class="about-form__field">
-                                    <input class="about-form__input" type="text" placeholder="Full name" required>
-                                </div>
-                                <div class="about-form__field">
-                                    <input class="about-form__input" type="email" placeholder="Email" required>
-                                </div>
-                                <div class="about-form__field">
-                                    <input class="about-form__input" type="tel" placeholder="Phone number" required>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- end row-->
-                        <!-- row-->
-                        <div class="about-form__row">
-                            <h4 class="about-form__title">Your Filtration Needs</h4>
-                            <div class="about-form__text">
-                                <p>The more details you provide, the better we’ll be able to custom tailor a filtration solution to your needs.</p>
-                            </div>
-                            <div class="about-form__fields">
-                                <div class="about-form__field">
-                                    <div class="about-form__radio">
-                                        <input type="radio" name="1" checked id="1">
-                                        <label for="1">Industrial</label>
-                                    </div>
-                                    <div class="about-form__radio">
-                                        <input type="radio" name="1" id="2">
-                                        <label for="2">Irrigation</label>
-                                    </div>
-                                </div>
-                                <div class="about-form__field">
-                                    <input class="about-form__input" type="text" placeholder="Industry">
-                                </div>
-                                <div class="about-form__field">
-                                    <input class="about-form__input" type="text" placeholder="Application">
-                                </div>
-                                <div class="about-form__field">
-                                    <input class="about-form__input" type="text" placeholder="Pressure">
-                                </div>
-                                <div class="about-form__field">
-                                    <input class="about-form__input" type="text" placeholder="GPM">
-                                </div>
-                                <div class="about-form__field">
-                                    <input class="about-form__input" type="text" placeholder="Line Size">
-                                </div>
-                                <div class="about-form__field">
-                                    <input class="about-form__input" type="text" placeholder="Water Source">
-                                </div>
-                                <div class="about-form__field">
-                                    <input class="about-form__input" type="text" placeholder="Why Filtration?">
-                                </div>
-                            </div>
-                        </div>
-                        <!-- end row-->
-                        <!-- row-->
-                        <div class="about-form__row">
-                            <h4 class="about-form__title">About Your Company</h4>
-                            <div class="about-form__fields">
-                                <div class="about-form__field">
-                                    <input class="about-form__input" type="text" placeholder="Company">
-                                </div>
-                                <div class="about-form__field">
-                                    <input class="about-form__input" type="text" placeholder="Address">
-                                </div>
-                                <div class="about-form__field">
-                                    <input class="about-form__input" type="text" placeholder="City">
-                                </div>
-                                <div class="about-form__field">
-                                    <input class="about-form__input" type="text" placeholder="State / Province">
-                                </div>
-                                <div class="about-form__field">
-                                    <input class="about-form__input" type="text" placeholder="Postal Code">
-                                </div>
-                                <div class="about-form__field">
-                                    <input class="about-form__input" type="text" placeholder="Country">
-                                </div>
-                            </div>
-                        </div>
-                        <!-- end row-->
-                        <!-- row-->
-                        <div class="about-form__row">
-                            <h4 class="about-form__title">Additional Details</h4>
-                            <div class="about-form__fields">
-                                <div class="about-form__field">
-                                    <input class="about-form__input" type="text" placeholder="Referral">
-                                </div>
-                                <div class="about-form__field">
-                                    <textarea class="about-form__textarea" name="" placeholder="Comments"></textarea>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- end row-->
-                        <!-- row-->
-                        <div class="about-form__row">
-                            <div class="about-form__fields">
-                                <div class="about-form__field">
-                                    <button class="btn btn-black about-form__btn" href="#">submit request</button>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- end row-->
-                    </form>
+	                <?=get_field('code_form_jotform', get_the_ID());?> <!--Form of jotform ID = 222372444345049(for searching and editing)-->
                 </div>
+
                 <div class="main__aside">
-                    <div class="main__title">Contact Us Directly</div>
+                    <div class="main__title"><?=get_field('sub_header_page', get_the_ID());?></div>
                     <div class="contacts-widget main__widget">
                         <div class="contacts-widget__row">
                             <div class="contacts-widget__title">Email</div>
-                            <div class="contacts-widget__list"> <a class="contacts-widget__link" href="mailto:info@tekleen.com">info@tekleen.com</a>
+                           <div class="contacts-widget__list">
+	                           <a class="contacts-widget__link" href="mailto:<?=get_field('contact_email', 'options');?>"><?=get_field('contact_email', 'options');?></a>
                             </div>
                         </div>
                         <div class="contacts-widget__row">
                             <div class="contacts-widget__title">Call</div>
-                            <div class="contacts-widget__list"> <a class="contacts-widget__link" href="tel:8003361942">(800) 336-1942</a><a class="contacts-widget__link" href="tel:3108392828">(310) 839-2828</a>
+                            <div class="contacts-widget__list">
+	                            <a class="contacts-widget__link" href="tel:<?=get_numerics( get_field('contact_phone_number1', 'options') );?>" style="margin-bottom:0;"><?=get_field('contact_phone_number1', 'options');?></a>
+	                            <a class="contacts-widget__link" href="tel:<?=get_numerics( get_field('contact_phone_number2', 'options') );?>" style="margin-bottom:0;"><?=get_field('contact_phone_number2', 'options');?></a>
                             </div>
                         </div>
                         <div class="contacts-widget__row">
                             <div class="contacts-widget__title">Fax</div>
-                            <div class="contacts-widget__list"> <a class="contacts-widget__link" href="#">(310) 839-6878</a>
+                            <div class="contacts-widget__list"> <a class="contacts-widget__link" href="#"><?=get_field('contact_fax', 'options');?></a>
                             </div>
                         </div>
                         <div class="contacts-widget__row">
                             <div class="contacts-widget__title">Address</div>
                             <div class="contacts-widget__list">
-                                <a class="contacts-widget__link" href="#">Automatic Filters, Inc.<br>2672 S. La Cienega Blvd.<br>Los Angeles, CA 90034</a>
+                                <a class="contacts-widget__link" href="https://goo.gl/maps/ZL6TuntG2rT6aZjT7" target="_blank">
+									<?=get_field('contact_information', 'options');?>
+                                </a>
                             </div>
                         </div>
+
+						<?=get_field('description', get_the_ID());?>
+
+
                         <div class="contacts-widget__row">
-                            <div class="contacts-widget__title">Prefer mail or fax?</div>
-                            <div class="contacts-widget__text">
-                                <p>Please download and use one of these PDF datasheets:</p>
-                            </div>
-                            <div class="contacts-widget__list"> <a class="contacts-widget__link is-download" href="#">Industrial Application Datasheet</a><a class="contacts-widget__link is-download" href="#">Irrigation Application Datasheet</a>
-                            </div>
+	                       <?php $files_for_downloads = get_field('files_for_download', get_the_ID());?>
+	                        <?php foreach( $files_for_downloads as $file_for_download ):?>
+		                        <a class="contacts-widget__link is-download" href="<?=$file_for_download['file_download']['url'];?>" target="_blank"><?=$file_for_download['file_download']['title'];?></a> <br>
+	                        <?php endforeach;?>
                         </div>
                     </div>
                 </div>
