@@ -1,0 +1,1639 @@
+/* screen - industrial-summary */
+
+.industrial-summary {
+  background-color: var(--white);
+  height: 3410px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 1300px;
+}
+
+.industrial-summary .callout-bar-8VC2Vx {
+  background-color: transparent;
+  height: 48px;
+  left: 0px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  position: absolute;
+  top: 0px;
+  width: 1300px;
+}
+
+.industrial-summary .rectangle-10-nT5MDx {
+  background-color: var(--log-cabin);
+  height: 48px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 1300px;
+}
+
+.industrial-summary .let-our-experts-help-nT5MDx {
+  background-color: transparent;
+  height: 21px;
+  left: 399px;
+  letter-spacing: 0.00px;
+  line-height: 21px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 13px;
+  white-space: nowrap;
+  width: 507px;
+}
+
+.industrial-summary .baseline-arrow_forward-24px-nT5MDx {
+  background-color: transparent;
+  height: 24px;
+  left: 914px;
+  position: absolute;
+  top: 12px;
+  width: 24px;
+}
+
+.industrial-summary .help-cta-8VC2Vx {
+  background-color: transparent;
+  height: 360px;
+  left: 0px;
+  position: absolute;
+  top: 1956px;
+  width: 1304px;
+}
+
+.industrial-summary .rectangle-23-wfxSAb {
+  background-color: var(--log-cabin);
+  height: 360px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 1300px;
+}
+
+.industrial-summary .how-can-we-help-wfxSAb {
+  background-color: transparent;
+  height: auto;
+  left: 489px;
+  letter-spacing: -1.00px;
+  line-height: 50px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 64px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.industrial-summary .why-do-all-the-resea-wfxSAb {
+  background-color: transparent;
+  height: auto;
+  left: 127px;
+  letter-spacing: 0.00px;
+  line-height: 28px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 148px;
+  width: 1045px;
+}
+
+.industrial-summary .button-wfxSAb {
+  align-items: center;
+  background-color: var(--log-cabin);
+  display: flex;
+  gap: 8px;
+  justify-content: flex-start;
+  left: 553px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  padding-bottom: 18px;
+  padding-left: 26px;
+  padding-right: 26px;
+  padding-top: 18px;
+  position: absolute;
+  top: 236px;
+}
+
+.industrial-summary .request-a-quote-xiu47S {
+  background-color: transparent;
+  letter-spacing: 1.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: auto;
+}
+
+.industrial-summary .footer-8VC2Vx {
+  background-color: transparent;
+  height: 916px;
+  left: 0px;
+  position: absolute;
+  top: 2494px;
+  width: 1300px;
+}
+
+.industrial-summary .rectangle-28-Ga6F4z {
+  background-color: transparent;
+  height: 916px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 1300px;
+}
+
+.industrial-summary .group-12-Ga6F4z {
+  background-color: transparent;
+  height: 545px;
+  left: 293px;
+  position: absolute;
+  top: 278px;
+  width: 967px;
+}
+
+.industrial-summary .industrial-NRxeUs {
+  background-color: transparent;
+  height: 545px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 214px;
+}
+
+.industrial-summary .industrial-hvac-suga-JompqW {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  line-height: 14px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: 212px;
+}
+
+.industrial-summary .span0-4POj8N {
+  letter-spacing: 0.14px;
+  line-height: 24px;
+}
+
+.industrial-summary .span1-4POj8N {
+  letter-spacing: 0.00px;
+  line-height: 21px;
+}
+
+.industrial-summary .irrigation-NRxeUs {
+  background-color: transparent;
+  height: 110px;
+  left: 252px;
+  position: absolute;
+  top: 0px;
+  width: 214px;
+}
+
+.industrial-summary .irrigation-golf-turf-ynGJgR {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  line-height: 14px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: 212px;
+}
+
+.industrial-summary .span0-fnxbMq {
+  letter-spacing: 0.14px;
+  line-height: 24px;
+}
+
+.industrial-summary .span1-fnxbMq {
+  letter-spacing: 0.00px;
+  line-height: 21px;
+}
+
+.industrial-summary .filters-NRxeUs {
+  background-color: transparent;
+  height: 342px;
+  left: 503px;
+  position: absolute;
+  top: 0px;
+  width: 74px;
+}
+
+.industrial-summary .filters-abw-mtf-lpf-4bR17L {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  line-height: 14px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: auto;
+}
+
+.industrial-summary .span0-83iDVf {
+  letter-spacing: 0.14px;
+  line-height: 24px;
+}
+
+.industrial-summary .span1-83iDVf {
+  letter-spacing: 0.00px;
+  line-height: 21px;
+}
+
+.industrial-summary .about-us-NRxeUs {
+  background-color: transparent;
+  height: 139px;
+  left: 755px;
+  position: absolute;
+  top: 0px;
+  width: 214px;
+}
+
+.industrial-summary .about-us-company-ann-F99j5m {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  line-height: 14px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: 212px;
+}
+
+.industrial-summary .span0-43ywcn {
+  letter-spacing: 0.14px;
+  line-height: 24px;
+}
+
+.industrial-summary .span1-43ywcn {
+  letter-spacing: 0.00px;
+  line-height: 21px;
+}
+
+.industrial-summary .group-13-Ga6F4z {
+  background-color: transparent;
+  height: 134px;
+  left: 293px;
+  position: absolute;
+  top: 64px;
+  width: 967px;
+}
+
+.industrial-summary .industrial-xTDxkD {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 214px;
+}
+
+.industrial-summary .x2672-la-cienega-blvd-PljTDv {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 21px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: 212px;
+}
+
+.industrial-summary .irrigation-xTDxkD {
+  background-color: transparent;
+  height: 44px;
+  left: 252px;
+  position: absolute;
+  top: 0px;
+  width: 214px;
+}
+
+.industrial-summary .email-infotekleencom-LeHsad {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  line-height: 14px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: 212px;
+}
+
+.industrial-summary .span0-ebZero {
+  letter-spacing: 0.14px;
+  line-height: 24px;
+}
+
+.industrial-summary .span1-ebZero {
+  letter-spacing: 0.00px;
+  line-height: 21px;
+}
+
+.industrial-summary .filters-xTDxkD {
+  background-color: transparent;
+  height: 134px;
+  left: 503px;
+  position: absolute;
+  top: 0px;
+  width: 214px;
+}
+
+.industrial-summary .call-8003361942-3108-EXEtqb {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  line-height: 14px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: 212px;
+}
+
+.industrial-summary .span0-qxrifP {
+  letter-spacing: 0.14px;
+  line-height: 24px;
+}
+
+.industrial-summary .span1-qxrifP {
+  letter-spacing: 0.00px;
+  line-height: 21px;
+}
+
+.industrial-summary .span2-qxrifP {
+  letter-spacing: 0.14px;
+  line-height: 24px;
+}
+
+.industrial-summary .span3-qxrifP {
+  letter-spacing: 0.00px;
+  line-height: 21px;
+}
+
+.industrial-summary .about-us-xTDxkD {
+  background-color: transparent;
+  height: 104px;
+  left: 755px;
+  position: absolute;
+  top: 0px;
+  width: 212px;
+}
+
+.industrial-summary .button-gNJx7y {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  gap: 8px;
+  justify-content: flex-start;
+  left: 0px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  padding-bottom: 18px;
+  padding-left: 26px;
+  padding-right: 26px;
+  padding-top: 18px;
+  position: absolute;
+  top: 0px;
+}
+
+.industrial-summary .request-quote-rnMHCQ {
+  background-color: transparent;
+  letter-spacing: 1.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: center;
+  width: auto;
+}
+
+.industrial-summary .social-media-gNJx7y {
+  background-color: transparent;
+  height: 24px;
+  left: 0px;
+  position: absolute;
+  top: 80px;
+  width: 104px;
+}
+
+.industrial-summary .facebook-gaQtrr {
+  background-color: transparent;
+  height: 24px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 24px;
+}
+
+.industrial-summary .icon-facebook-EMogLd {
+  background-color: transparent;
+  height: 22px;
+  left: 1px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 1px;
+  width: 22px;
+}
+
+.industrial-summary .twitter-gaQtrr {
+  background-color: transparent;
+  height: 24px;
+  left: 40px;
+  position: absolute;
+  top: 0px;
+  width: 24px;
+}
+
+.industrial-summary .shape-NYupqH {
+  background-color: transparent;
+  height: 19px;
+  left: -0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 3px;
+  width: 23px;
+}
+
+.industrial-summary .linked-in-gaQtrr {
+  background-color: transparent;
+  height: 24px;
+  left: 80px;
+  position: absolute;
+  top: 0px;
+  width: 24px;
+}
+
+.industrial-summary .icon-linkedin-ggWOvI {
+  background-color: transparent;
+  height: 22px;
+  left: 1px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 1px;
+  width: 22px;
+}
+
+.industrial-summary .logo-Ga6F4z {
+  background-color: transparent;
+  height: 44px;
+  left: 40px;
+  position: absolute;
+  top: 64px;
+  width: 194px;
+}
+
+.industrial-summary .tekleen-O05ld3 {
+  background-color: transparent;
+  height: 26px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 1px;
+  width: 194px;
+}
+
+.industrial-summary .automatic-filters-inc-O05ld3 {
+  background-color: transparent;
+  height: 7px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 37px;
+  width: 194px;
+}
+
+.industrial-summary .line-6-Ga6F4z {
+  background-color: transparent;
+  height: 1px;
+  left: 291px;
+  position: absolute;
+  top: 238px;
+  width: 969px;
+}
+
+.industrial-summary .navigation-bar-hover-8VC2Vx {
+  background-color: transparent;
+  height: 124px;
+  left: 0px;
+  position: absolute;
+  top: 48px;
+  width: 1300px;
+}
+
+.industrial-summary .navigation-bar-MEn2Ln {
+  background-color: transparent;
+  height: 124px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1300px;
+}
+
+.industrial-summary .nav-HqGeZq {
+  background-color: var(--white);
+  box-shadow: 0px 1px 0px #d9d9d9;
+  height: 124px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 1300px;
+}
+
+.industrial-summary .button-HqGeZq {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  gap: 8px;
+  justify-content: flex-start;
+  left: 1083px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  padding-bottom: 18px;
+  padding-left: 26px;
+  padding-right: 26px;
+  padding-top: 18px;
+  position: absolute;
+  top: 32px;
+}
+
+.industrial-summary .request-quote-V90qK9 {
+  background-color: transparent;
+  letter-spacing: 1.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: auto;
+}
+
+.industrial-summary .call-us-HqGeZq {
+  background-color: transparent;
+  height: 24px;
+  left: 893px;
+  position: absolute;
+  top: 50px;
+  width: 161px;
+}
+
+.industrial-summary .x800-336-1942-kMZ1Hr {
+  background-color: transparent;
+  height: auto;
+  left: 40px;
+  letter-spacing: 1.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.industrial-summary .phone-24px-kMZ1Hr {
+  background-color: transparent;
+  height: 24px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 24px;
+}
+
+.industrial-summary .navigation-HqGeZq {
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  gap: 32px;
+  justify-content: flex-start;
+  left: 290px;
+  overflow: hidden;
+  position: absolute;
+  top: 50px;
+}
+
+.industrial-summary .industrial-txHCMg {
+  background-color: transparent;
+  letter-spacing: 1.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: auto;
+}
+
+.industrial-summary .irrigation-txHCMg {
+  background-color: transparent;
+  letter-spacing: 1.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: auto;
+}
+
+.industrial-summary .filters-txHCMg {
+  background-color: transparent;
+  letter-spacing: 1.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: auto;
+}
+
+.industrial-summary .about-us-txHCMg {
+  background-color: transparent;
+  letter-spacing: 1.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: auto;
+}
+
+.industrial-summary .logo-HqGeZq {
+  background-color: transparent;
+  height: 44px;
+  left: 40px;
+  position: absolute;
+  top: 40px;
+  width: 194px;
+}
+
+.industrial-summary .rectangle-51-MEn2Ln {
+  background-color: var(--pistachio);
+  height: 8px;
+  left: 290px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 116px;
+  width: 89px;
+}
+
+.industrial-summary .group-22-8VC2Vx {
+  background-color: transparent;
+  height: 1256px;
+  left: 78px;
+  position: absolute;
+  top: 636px;
+  width: 1144px;
+}
+
+.industrial-summary .features-WhNlNY {
+  background-color: transparent;
+  height: 248px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1144px;
+}
+
+.industrial-summary .group-14-9j323q {
+  background-color: transparent;
+  height: 248px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 1144px;
+}
+
+.industrial-summary .group-15-6EMsEi {
+  background-color: transparent;
+  height: 224px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 258px;
+}
+
+.industrial-summary .hvac-cooling-tower-w-x5REAE {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 88px;
+  width: 256px;
+}
+
+.industrial-summary .span0-4Uqe8A {
+}
+
+.industrial-summary .span1-4Uqe8A {
+}
+
+.industrial-summary .span2-4Uqe8A {
+}
+
+.industrial-summary .rectangle-29-x5REAE {
+  background-color: var(--rio-grande);
+  height: 64px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 64px;
+}
+
+.industrial-summary .group-16-6EMsEi {
+  background-color: transparent;
+  height: 224px;
+  left: 296px;
+  position: absolute;
+  top: 0px;
+  width: 258px;
+}
+
+.industrial-summary .sugar-cooling-tower-zmlXqL {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 88px;
+  width: 256px;
+}
+
+.industrial-summary .span0-xXzEu7 {
+}
+
+.industrial-summary .span1-xXzEu7 {
+}
+
+.industrial-summary .span2-xXzEu7 {
+}
+
+.industrial-summary .rectangle-30-zmlXqL {
+  background-color: var(--rio-grande);
+  height: 64px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 64px;
+}
+
+.industrial-summary .group-17-6EMsEi {
+  background-color: transparent;
+  height: 248px;
+  left: 592px;
+  position: absolute;
+  top: 0px;
+  width: 258px;
+}
+
+.industrial-summary .plastics-filtration-G9VjyY {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 88px;
+  width: 256px;
+}
+
+.industrial-summary .span0-IYVn1e {
+}
+
+.industrial-summary .span1-IYVn1e {
+}
+
+.industrial-summary .span2-IYVn1e {
+}
+
+.industrial-summary .rectangle-31-G9VjyY {
+  background-color: var(--rio-grande);
+  height: 64px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 64px;
+}
+
+.industrial-summary .group-18-6EMsEi {
+  background-color: transparent;
+  height: 224px;
+  left: 888px;
+  position: absolute;
+  top: 0px;
+  width: 258px;
+}
+
+.industrial-summary .petrochemical-coolin-Ph9zJn {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 88px;
+  width: 256px;
+}
+
+.industrial-summary .span0-qEWaTq {
+}
+
+.industrial-summary .span1-qEWaTq {
+}
+
+.industrial-summary .span2-qEWaTq {
+}
+
+.industrial-summary .rectangle-32-Ph9zJn {
+  background-color: var(--rio-grande);
+  height: 64px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 64px;
+}
+
+.industrial-summary .features-Svx9hk {
+  background-color: transparent;
+  height: 224px;
+  left: 0px;
+  position: absolute;
+  top: 288px;
+  width: 1144px;
+}
+
+.industrial-summary .group-14-HMDqxS {
+  background-color: transparent;
+  height: 224px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 1144px;
+}
+
+.industrial-summary .group-15-1N2zzT {
+  background-color: transparent;
+  height: 224px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 258px;
+}
+
+.industrial-summary .metal-processing-fil-TZC4Ye {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 88px;
+  width: 256px;
+}
+
+.industrial-summary .span0-48KveC {
+}
+
+.industrial-summary .span1-48KveC {
+}
+
+.industrial-summary .span2-48KveC {
+}
+
+.industrial-summary .rectangle-29-TZC4Ye {
+  background-color: var(--rio-grande);
+  height: 64px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 64px;
+}
+
+.industrial-summary .group-16-1N2zzT {
+  background-color: transparent;
+  height: 224px;
+  left: 296px;
+  position: absolute;
+  top: 0px;
+  width: 258px;
+}
+
+.industrial-summary .food-industry-bottle-Jv9nAI {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 88px;
+  width: 256px;
+}
+
+.industrial-summary .span0-lZtnqx {
+}
+
+.industrial-summary .span1-lZtnqx {
+}
+
+.industrial-summary .span2-lZtnqx {
+}
+
+.industrial-summary .rectangle-30-Jv9nAI {
+  background-color: var(--rio-grande);
+  height: 64px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 64px;
+}
+
+.industrial-summary .group-17-1N2zzT {
+  background-color: transparent;
+  height: 224px;
+  left: 592px;
+  position: absolute;
+  top: 0px;
+  width: 258px;
+}
+
+.industrial-summary .pulp-paper-water-re-0eFx8D {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 88px;
+  width: 256px;
+}
+
+.industrial-summary .span0-QGNSHO {
+}
+
+.industrial-summary .span1-QGNSHO {
+}
+
+.industrial-summary .span2-QGNSHO {
+}
+
+.industrial-summary .rectangle-31-0eFx8D {
+  background-color: var(--rio-grande);
+  height: 64px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 64px;
+}
+
+.industrial-summary .group-18-1N2zzT {
+  background-color: transparent;
+  height: 224px;
+  left: 888px;
+  position: absolute;
+  top: 0px;
+  width: 258px;
+}
+
+.industrial-summary .waste-water-water-re-ayhwSn {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 88px;
+  width: 256px;
+}
+
+.industrial-summary .span0-nSG37R {
+}
+
+.industrial-summary .span1-nSG37R {
+}
+
+.industrial-summary .span2-nSG37R {
+}
+
+.industrial-summary .rectangle-32-ayhwSn {
+  background-color: var(--rio-grande);
+  height: 64px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 64px;
+}
+
+.industrial-summary .features-zv13h9 {
+  background-color: transparent;
+  height: 224px;
+  left: 0px;
+  position: absolute;
+  top: 552px;
+  width: 1144px;
+}
+
+.industrial-summary .group-14-pTwOxh {
+  background-color: transparent;
+  height: 224px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 1144px;
+}
+
+.industrial-summary .group-15-8vzm60 {
+  background-color: transparent;
+  height: 200px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 258px;
+}
+
+.industrial-summary .power-generation-fil-EnjFgx {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 88px;
+  width: 256px;
+}
+
+.industrial-summary .span0-Rhp9TN {
+}
+
+.industrial-summary .span1-Rhp9TN {
+}
+
+.industrial-summary .span2-Rhp9TN {
+}
+
+.industrial-summary .rectangle-29-EnjFgx {
+  background-color: var(--rio-grande);
+  height: 64px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 64px;
+}
+
+.industrial-summary .group-16-8vzm60 {
+  background-color: transparent;
+  height: 200px;
+  left: 296px;
+  position: absolute;
+  top: 0px;
+  width: 258px;
+}
+
+.industrial-summary .drinking-water-filtr-kQgXrr {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 88px;
+  width: 256px;
+}
+
+.industrial-summary .span0-yaTYix {
+}
+
+.industrial-summary .span1-yaTYix {
+}
+
+.industrial-summary .span2-yaTYix {
+}
+
+.industrial-summary .rectangle-30-kQgXrr {
+  background-color: var(--rio-grande);
+  height: 64px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 64px;
+}
+
+.industrial-summary .group-17-8vzm60 {
+  background-color: transparent;
+  height: 224px;
+  left: 592px;
+  position: absolute;
+  top: 0px;
+  width: 258px;
+}
+
+.industrial-summary .sea-water-filtration-aaXnQg {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 88px;
+  width: 256px;
+}
+
+.industrial-summary .span0-X0RrpP {
+}
+
+.industrial-summary .span1-X0RrpP {
+}
+
+.industrial-summary .span2-X0RrpP {
+}
+
+.industrial-summary .rectangle-31-aaXnQg {
+  background-color: var(--rio-grande);
+  height: 64px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 64px;
+}
+
+.industrial-summary .group-18-8vzm60 {
+  background-color: transparent;
+  height: 200px;
+  left: 888px;
+  position: absolute;
+  top: 0px;
+  width: 258px;
+}
+
+.industrial-summary .car-wash-water-reuse-D17ahk {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 88px;
+  width: 256px;
+}
+
+.industrial-summary .span0-PFzgwu {
+}
+
+.industrial-summary .span1-PFzgwu {
+}
+
+.industrial-summary .span2-PFzgwu {
+}
+
+.industrial-summary .rectangle-32-D17ahk {
+  background-color: var(--rio-grande);
+  height: 64px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 64px;
+}
+
+.industrial-summary .features-Xa8cnA {
+  background-color: transparent;
+  height: 200px;
+  left: 0px;
+  position: absolute;
+  top: 816px;
+  width: 1144px;
+}
+
+.industrial-summary .group-14-3h5fpQ {
+  background-color: transparent;
+  height: 200px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 1144px;
+}
+
+.industrial-summary .group-18-eJuxd9 {
+  background-color: transparent;
+  height: 200px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 258px;
+}
+
+.industrial-summary .prepared-foods-this-4BG2O9 {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 88px;
+  width: 256px;
+}
+
+.industrial-summary .span0-49oGSs {
+}
+
+.industrial-summary .span1-49oGSs {
+}
+
+.industrial-summary .span2-49oGSs {
+}
+
+.industrial-summary .rectangle-32-4BG2O9 {
+  background-color: var(--rio-grande);
+  height: 64px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 64px;
+}
+
+.industrial-summary .group-15-eJuxd9 {
+  background-color: transparent;
+  height: 200px;
+  left: 296px;
+  position: absolute;
+  top: 0px;
+  width: 258px;
+}
+
+.industrial-summary .swimming-pools-this-f6ZFIL {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 88px;
+  width: 256px;
+}
+
+.industrial-summary .span0-VO5ZuP {
+}
+
+.industrial-summary .span1-VO5ZuP {
+}
+
+.industrial-summary .span2-VO5ZuP {
+}
+
+.industrial-summary .rectangle-29-f6ZFIL {
+  background-color: var(--rio-grande);
+  height: 64px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 64px;
+}
+
+.industrial-summary .group-16-eJuxd9 {
+  background-color: transparent;
+  height: 200px;
+  left: 592px;
+  position: absolute;
+  top: 0px;
+  width: 258px;
+}
+
+.industrial-summary .data-center-this-is-YCEkbY {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 88px;
+  width: 256px;
+}
+
+.industrial-summary .span0-tM6nPB {
+}
+
+.industrial-summary .span1-tM6nPB {
+}
+
+.industrial-summary .span2-tM6nPB {
+}
+
+.industrial-summary .rectangle-30-YCEkbY {
+  background-color: var(--rio-grande);
+  height: 64px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 64px;
+}
+
+.industrial-summary .group-17-eJuxd9 {
+  background-color: transparent;
+  height: 200px;
+  left: 888px;
+  position: absolute;
+  top: 0px;
+  width: 258px;
+}
+
+.industrial-summary .oil-production-this-AhxBwG {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 88px;
+  width: 256px;
+}
+
+.industrial-summary .span0-QWqDWj {
+}
+
+.industrial-summary .span1-QWqDWj {
+}
+
+.industrial-summary .span2-QWqDWj {
+}
+
+.industrial-summary .rectangle-31-AhxBwG {
+  background-color: var(--rio-grande);
+  height: 64px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 64px;
+}
+
+.industrial-summary .features-h1xCxM {
+  background-color: transparent;
+  height: 200px;
+  left: 0px;
+  position: absolute;
+  top: 1056px;
+  width: 552px;
+}
+
+.industrial-summary .group-14-XxZxCb {
+  background-color: transparent;
+  height: 200px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 552px;
+}
+
+.industrial-summary .group-15-tBAknR {
+  background-color: transparent;
+  height: 200px;
+  left: 296px;
+  position: absolute;
+  top: 0px;
+  width: 258px;
+}
+
+.industrial-summary .rain-harvesting-this-6HBYXx {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 88px;
+  width: 256px;
+}
+
+.industrial-summary .span0-93tUX2 {
+}
+
+.industrial-summary .span1-93tUX2 {
+}
+
+.industrial-summary .span2-93tUX2 {
+}
+
+.industrial-summary .rectangle-29-6HBYXx {
+  background-color: var(--rio-grande);
+  height: 64px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 64px;
+}
+
+.industrial-summary .group-18-tBAknR {
+  background-color: transparent;
+  height: 200px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 258px;
+}
+
+.industrial-summary .beverages-this-is-a-AuGKIa {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 88px;
+  width: 256px;
+}
+
+.industrial-summary .span0-NaniBg {
+}
+
+.industrial-summary .span1-NaniBg {
+}
+
+.industrial-summary .span2-NaniBg {
+}
+
+.industrial-summary .rectangle-32-AuGKIa {
+  background-color: var(--rio-grande);
+  height: 64px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 64px;
+}
+
+.industrial-summary .email-cta-8VC2Vx {
+  background-color: transparent;
+  height: 178px;
+  left: 0px;
+  position: absolute;
+  top: 2316px;
+  width: 1302px;
+}
+
+.industrial-summary .rectangle-25-HxEUIM {
+  background-color: var(--rio-grande);
+  height: 178px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 1300px;
+}
+
+.industrial-summary .get-the-latest-from-tekleen-HxEUIM {
+  background-color: transparent;
+  height: auto;
+  left: 236px;
+  letter-spacing: 0.00px;
+  line-height: 25px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 76px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.industrial-summary .button-HxEUIM {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  gap: 32px;
+  justify-content: flex-start;
+  left: 536px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  padding-bottom: 16px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 16px;
+  position: absolute;
+  top: 64px;
+}
+
+.industrial-summary .email-me-updates-and-special-offers-QZ1Ei2 {
+  background-color: transparent;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: center;
+  width: auto;
+}
+
+.industrial-summary .subscribe-QZ1Ei2 {
+  background-color: transparent;
+  letter-spacing: 1.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: auto;
+}
+
+.industrial-summary .hero-8VC2Vx {
+  background-color: transparent;
+  height: 400px;
+  left: 0px;
+  position: absolute;
+  top: 172px;
+  width: 1300px;
+}
+
+.industrial-summary .rectangle-24-kPxPRF {
+  background-color: var(--concrete);
+  height: 400px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 1300px;
+}
+
+.industrial-summary .image-8-kPxPRF {
+  background-color: transparent;
+  height: 386px;
+  left: 702px;
+  mix-blend-mode: multiply;
+  object-fit: cover;
+  position: absolute;
+  top: 7px;
+  width: 526px;
+}
+
+.industrial-summary .copy-kPxPRF {
+  background-color: transparent;
+  height: 229px;
+  left: 40px;
+  position: absolute;
+  top: 85px;
+  width: 602px;
+}
+
+.industrial-summary .keep-your-systems-up-g2Z04s {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 28px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 117px;
+  width: 598px;
+}
+
+.industrial-summary .automatic-self-clea-g2Z04s {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: -1.00px;
+  line-height: 50px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: 598px;
+}

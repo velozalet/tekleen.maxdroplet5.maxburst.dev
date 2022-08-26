@@ -1,0 +1,1211 @@
+/* screen - industrial-application-detail */
+
+.industrial-application-detail {
+  background-color: var(--white);
+  height: 3956px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 1300px;
+}
+
+.industrial-application-detail .callout-bar-AJ0Y64 {
+  background-color: transparent;
+  height: 48px;
+  left: 0px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  position: absolute;
+  top: 0px;
+  width: 1300px;
+}
+
+.industrial-application-detail .rectangle-10-7pXY2F {
+  background-color: var(--log-cabin);
+  height: 48px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 1300px;
+}
+
+.industrial-application-detail .let-our-experts-help-7pXY2F {
+  background-color: transparent;
+  height: 21px;
+  left: 399px;
+  letter-spacing: 0.00px;
+  line-height: 21px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 13px;
+  white-space: nowrap;
+  width: 507px;
+}
+
+.industrial-application-detail .baseline-arrow_forward-24px-7pXY2F {
+  background-color: transparent;
+  height: 24px;
+  left: 914px;
+  position: absolute;
+  top: 12px;
+  width: 24px;
+}
+
+.industrial-application-detail .help-cta-AJ0Y64 {
+  background-color: transparent;
+  height: 360px;
+  left: 0px;
+  position: absolute;
+  top: 2387px;
+  width: 1304px;
+}
+
+.industrial-application-detail .rectangle-23-jroniJ {
+  background-color: var(--log-cabin);
+  height: 360px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 1300px;
+}
+
+.industrial-application-detail .how-can-we-help-jroniJ {
+  background-color: transparent;
+  height: auto;
+  left: 488px;
+  letter-spacing: -1.00px;
+  line-height: 50px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 64px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.industrial-application-detail .why-do-all-the-resea-jroniJ {
+  background-color: transparent;
+  height: auto;
+  left: 126px;
+  letter-spacing: 0.00px;
+  line-height: 28px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 148px;
+  width: 1045px;
+}
+
+.industrial-application-detail .button-jroniJ {
+  align-items: center;
+  background-color: var(--log-cabin);
+  display: flex;
+  gap: 8px;
+  justify-content: flex-start;
+  left: 552px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  padding-bottom: 18px;
+  padding-left: 26px;
+  padding-right: 26px;
+  padding-top: 18px;
+  position: absolute;
+  top: 236px;
+}
+
+.industrial-application-detail .request-a-quote-ZRMenx {
+  background-color: transparent;
+  letter-spacing: 1.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: auto;
+}
+
+.industrial-application-detail .footer-AJ0Y64 {
+  background-color: transparent;
+  height: 916px;
+  left: 0px;
+  position: absolute;
+  top: 2925px;
+  width: 1300px;
+}
+
+.industrial-application-detail .rectangle-28-QWFW3z {
+  background-color: transparent;
+  height: 916px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 1300px;
+}
+
+.industrial-application-detail .group-12-QWFW3z {
+  background-color: transparent;
+  height: 545px;
+  left: 293px;
+  position: absolute;
+  top: 278px;
+  width: 965px;
+}
+
+.industrial-application-detail .industrial-VbJXqK {
+  background-color: transparent;
+  height: 545px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 214px;
+}
+
+.industrial-application-detail .industrial-hvac-suga-UPXAKR {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  line-height: 14px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: 212px;
+}
+
+.industrial-application-detail .span0-xDAfwb {
+  letter-spacing: 0.14px;
+  line-height: 24px;
+}
+
+.industrial-application-detail .span1-xDAfwb {
+  letter-spacing: 0.00px;
+  line-height: 21px;
+}
+
+.industrial-application-detail .irrigation-VbJXqK {
+  background-color: transparent;
+  height: 110px;
+  left: 251px;
+  position: absolute;
+  top: 0px;
+  width: 214px;
+}
+
+.industrial-application-detail .irrigation-golf-turf-vnq84w {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  line-height: 14px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: 212px;
+}
+
+.industrial-application-detail .span0-t53guS {
+  letter-spacing: 0.14px;
+  line-height: 24px;
+}
+
+.industrial-application-detail .span1-t53guS {
+  letter-spacing: 0.00px;
+  line-height: 21px;
+}
+
+.industrial-application-detail .filters-VbJXqK {
+  background-color: transparent;
+  height: 342px;
+  left: 501px;
+  position: absolute;
+  top: 0px;
+  width: 74px;
+}
+
+.industrial-application-detail .filters-abw-mtf-lpf-1l2j9I {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  line-height: 14px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: auto;
+}
+
+.industrial-application-detail .span0-N1wXMh {
+  letter-spacing: 0.14px;
+  line-height: 24px;
+}
+
+.industrial-application-detail .span1-N1wXMh {
+  letter-spacing: 0.00px;
+  line-height: 21px;
+}
+
+.industrial-application-detail .about-us-VbJXqK {
+  background-color: transparent;
+  height: 139px;
+  left: 753px;
+  position: absolute;
+  top: 0px;
+  width: 214px;
+}
+
+.industrial-application-detail .about-us-company-ann-xNCyfp {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  line-height: 14px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: 212px;
+}
+
+.industrial-application-detail .span0-9sQPIt {
+  letter-spacing: 0.14px;
+  line-height: 24px;
+}
+
+.industrial-application-detail .span1-9sQPIt {
+  letter-spacing: 0.00px;
+  line-height: 21px;
+}
+
+.industrial-application-detail .group-13-QWFW3z {
+  background-color: transparent;
+  height: 134px;
+  left: 293px;
+  position: absolute;
+  top: 64px;
+  width: 965px;
+}
+
+.industrial-application-detail .industrial-QtBhCY {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 214px;
+}
+
+.industrial-application-detail .x2672-la-cienega-blvd-CaQOl8 {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 21px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: 212px;
+}
+
+.industrial-application-detail .irrigation-QtBhCY {
+  background-color: transparent;
+  height: 44px;
+  left: 251px;
+  position: absolute;
+  top: 0px;
+  width: 214px;
+}
+
+.industrial-application-detail .email-infotekleencom-p1XSxg {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  line-height: 14px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: 212px;
+}
+
+.industrial-application-detail .span0-LtHyaO {
+  letter-spacing: 0.14px;
+  line-height: 24px;
+}
+
+.industrial-application-detail .span1-LtHyaO {
+  letter-spacing: 0.00px;
+  line-height: 21px;
+}
+
+.industrial-application-detail .filters-QtBhCY {
+  background-color: transparent;
+  height: 134px;
+  left: 501px;
+  position: absolute;
+  top: 0px;
+  width: 214px;
+}
+
+.industrial-application-detail .call-8003361942-3108-X4rTNG {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  line-height: 14px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: 212px;
+}
+
+.industrial-application-detail .span0-8n6Q2y {
+  letter-spacing: 0.14px;
+  line-height: 24px;
+}
+
+.industrial-application-detail .span1-8n6Q2y {
+  letter-spacing: 0.00px;
+  line-height: 21px;
+}
+
+.industrial-application-detail .span2-8n6Q2y {
+  letter-spacing: 0.14px;
+  line-height: 24px;
+}
+
+.industrial-application-detail .span3-8n6Q2y {
+  letter-spacing: 0.00px;
+  line-height: 21px;
+}
+
+.industrial-application-detail .about-us-QtBhCY {
+  background-color: transparent;
+  height: 104px;
+  left: 753px;
+  position: absolute;
+  top: 0px;
+  width: 212px;
+}
+
+.industrial-application-detail .button-cXExMU {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  gap: 8px;
+  justify-content: flex-start;
+  left: 0px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  padding-bottom: 18px;
+  padding-left: 26px;
+  padding-right: 26px;
+  padding-top: 18px;
+  position: absolute;
+  top: 0px;
+}
+
+.industrial-application-detail .request-quote-6jlIiU {
+  background-color: transparent;
+  letter-spacing: 1.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: center;
+  width: auto;
+}
+
+.industrial-application-detail .social-media-cXExMU {
+  background-color: transparent;
+  height: 24px;
+  left: 0px;
+  position: absolute;
+  top: 80px;
+  width: 104px;
+}
+
+.industrial-application-detail .facebook-pjrKwW {
+  background-color: transparent;
+  height: 24px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 24px;
+}
+
+.industrial-application-detail .icon-facebook-bDBamt {
+  background-color: transparent;
+  height: 22px;
+  left: 1px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 1px;
+  width: 22px;
+}
+
+.industrial-application-detail .twitter-pjrKwW {
+  background-color: transparent;
+  height: 24px;
+  left: 40px;
+  position: absolute;
+  top: 0px;
+  width: 24px;
+}
+
+.industrial-application-detail .shape-e6s9nC {
+  background-color: transparent;
+  height: 19px;
+  left: -0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 3px;
+  width: 23px;
+}
+
+.industrial-application-detail .linked-in-pjrKwW {
+  background-color: transparent;
+  height: 24px;
+  left: 80px;
+  position: absolute;
+  top: 0px;
+  width: 24px;
+}
+
+.industrial-application-detail .icon-linkedin-7xU8kS {
+  background-color: transparent;
+  height: 22px;
+  left: 1px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 1px;
+  width: 22px;
+}
+
+.industrial-application-detail .logo-QWFW3z {
+  background-color: transparent;
+  height: 44px;
+  left: 40px;
+  position: absolute;
+  top: 64px;
+  width: 194px;
+}
+
+.industrial-application-detail .tekleen-6sQf6R {
+  background-color: transparent;
+  height: 26px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 1px;
+  width: 194px;
+}
+
+.industrial-application-detail .automatic-filters-inc-6sQf6R {
+  background-color: transparent;
+  height: 7px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 37px;
+  width: 194px;
+}
+
+.industrial-application-detail .line-6-QWFW3z {
+  background-color: transparent;
+  height: 1px;
+  left: 291px;
+  position: absolute;
+  top: 238px;
+  width: 969px;
+}
+
+.industrial-application-detail .email-cta-AJ0Y64 {
+  background-color: transparent;
+  height: 178px;
+  left: 0px;
+  position: absolute;
+  top: 2747px;
+  width: 1302px;
+}
+
+.industrial-application-detail .rectangle-25-wLQwES {
+  background-color: var(--rio-grande);
+  height: 178px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 1300px;
+}
+
+.industrial-application-detail .get-the-latest-from-tekleen-wLQwES {
+  background-color: transparent;
+  height: auto;
+  left: 236px;
+  letter-spacing: 0.00px;
+  line-height: 25px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 76px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.industrial-application-detail .button-wLQwES {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  gap: 32px;
+  justify-content: flex-start;
+  left: 536px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  padding-bottom: 16px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 16px;
+  position: absolute;
+  top: 64px;
+}
+
+.industrial-application-detail .email-me-updates-and-special-offers-j6Hgu2 {
+  background-color: transparent;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: center;
+  width: auto;
+}
+
+.industrial-application-detail .subscribe-j6Hgu2 {
+  background-color: transparent;
+  letter-spacing: 1.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: auto;
+}
+
+.industrial-application-detail .navigation-bar-hover-AJ0Y64 {
+  background-color: transparent;
+  height: 124px;
+  left: 0px;
+  position: absolute;
+  top: 48px;
+  width: 1300px;
+}
+
+.industrial-application-detail .navigation-bar-1ilB7x {
+  background-color: transparent;
+  height: 124px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1300px;
+}
+
+.industrial-application-detail .nav-xfDxJr {
+  background-color: var(--white);
+  box-shadow: 0px 1px 0px #d9d9d9;
+  height: 124px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 1300px;
+}
+
+.industrial-application-detail .button-xfDxJr {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  gap: 8px;
+  justify-content: flex-start;
+  left: 1083px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  padding-bottom: 18px;
+  padding-left: 26px;
+  padding-right: 26px;
+  padding-top: 18px;
+  position: absolute;
+  top: 32px;
+}
+
+.industrial-application-detail .request-quote-c9Jx9x {
+  background-color: transparent;
+  letter-spacing: 1.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: auto;
+}
+
+.industrial-application-detail .call-us-xfDxJr {
+  background-color: transparent;
+  height: 24px;
+  left: 893px;
+  position: absolute;
+  top: 50px;
+  width: 161px;
+}
+
+.industrial-application-detail .x800-336-1942-jmUJVI {
+  background-color: transparent;
+  height: auto;
+  left: 40px;
+  letter-spacing: 1.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.industrial-application-detail .phone-24px-jmUJVI {
+  background-color: transparent;
+  height: 24px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 24px;
+}
+
+.industrial-application-detail .navigation-xfDxJr {
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  gap: 32px;
+  justify-content: flex-start;
+  left: 290px;
+  overflow: hidden;
+  position: absolute;
+  top: 50px;
+}
+
+.industrial-application-detail .industrial-KDHmCx {
+  background-color: transparent;
+  letter-spacing: 1.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: auto;
+}
+
+.industrial-application-detail .irrigation-KDHmCx {
+  background-color: transparent;
+  letter-spacing: 1.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: auto;
+}
+
+.industrial-application-detail .filters-KDHmCx {
+  background-color: transparent;
+  letter-spacing: 1.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: auto;
+}
+
+.industrial-application-detail .about-us-KDHmCx {
+  background-color: transparent;
+  letter-spacing: 1.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: auto;
+}
+
+.industrial-application-detail .logo-xfDxJr {
+  background-color: transparent;
+  height: 44px;
+  left: 40px;
+  position: absolute;
+  top: 40px;
+  width: 194px;
+}
+
+.industrial-application-detail .rectangle-51-1ilB7x {
+  background-color: var(--pistachio);
+  height: 8px;
+  left: 290px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 116px;
+  width: 89px;
+}
+
+.industrial-application-detail .continuous-casting-o-AJ0Y64 {
+  background-color: transparent;
+  height: auto;
+  left: 248px;
+  letter-spacing: 0.00px;
+  line-height: 28px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 1098px;
+  width: 804px;
+}
+
+.industrial-application-detail .case-study-AJ0Y64 {
+  background-color: transparent;
+  height: 224px;
+  left: 248px;
+  position: absolute;
+  top: 2099px;
+  width: 806px;
+}
+
+.industrial-application-detail .group-14-P5CkDR {
+  background-color: transparent;
+  height: 224px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 806px;
+}
+
+.industrial-application-detail .group-15-H0xKuc {
+  background-color: transparent;
+  height: 219px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 391px;
+}
+
+.industrial-application-detail .rectangle-56-cMROpP {
+  background-color: var(--mist-gray);
+  height: 219px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: relative;
+  top: 0px;
+  width: 391px;
+}
+
+.industrial-application-detail .group-18-H0xKuc {
+  background-color: transparent;
+  height: 224px;
+  left: 415px;
+  position: absolute;
+  top: 0px;
+  width: 393px;
+}
+
+.industrial-application-detail .new-water-filters-re-nyxiX6 {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: 391px;
+}
+
+.industrial-application-detail .span0-BejflP {
+}
+
+.industrial-application-detail .span1-BejflP {
+}
+
+.industrial-application-detail .button-nyxiX6 {
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  gap: 8px;
+  justify-content: flex-start;
+  left: 0px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  padding-bottom: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 12px;
+  position: absolute;
+  top: 176px;
+}
+
+.industrial-application-detail .download-KxboPZ {
+  background-color: transparent;
+  letter-spacing: 1.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: auto;
+}
+
+.industrial-application-detail .metal-processing-AJ0Y64 {
+  background-color: transparent;
+  height: auto;
+  left: 678px;
+  letter-spacing: -1.00px;
+  line-height: 50px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 283px;
+  white-space: nowrap;
+  width: 582px;
+}
+
+.industrial-application-detail .tekleen-automatic-se-AJ0Y64 {
+  background-color: transparent;
+  height: auto;
+  left: 678px;
+  letter-spacing: 0.00px;
+  line-height: 28px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 351px;
+  width: 582px;
+}
+
+.industrial-application-detail .industrial-filters-AJ0Y64 {
+  background-color: transparent;
+  height: auto;
+  left: 678px;
+  letter-spacing: 1.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 235px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.industrial-application-detail .illustration-fpo-AJ0Y64 {
+  background-color: transparent;
+  height: 257px;
+  left: 72px;
+  position: absolute;
+  top: 248px;
+  width: 534px;
+}
+
+.industrial-application-detail .ellipse-5-BuXtnm {
+  background-color: transparent;
+  border-radius: 75.5px;
+  height: 151px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 151px;
+}
+
+.industrial-application-detail .ellipse-6-BuXtnm {
+  background-color: transparent;
+  border-radius: 75.5px;
+  height: 151px;
+  left: 383px;
+  position: absolute;
+  top: 106px;
+  width: 151px;
+}
+
+.industrial-application-detail .ellipse-7-BuXtnm {
+  background-color: transparent;
+  border-radius: 42.5px;
+  height: 85px;
+  left: 209px;
+  position: absolute;
+  top: 113px;
+  width: 85px;
+}
+
+.industrial-application-detail .ellipse-8-BuXtnm {
+  background-color: transparent;
+  border-radius: 42.5px;
+  height: 85px;
+  left: 307px;
+  position: absolute;
+  top: 0px;
+  width: 85px;
+}
+
+.industrial-application-detail .ellipse-9-BuXtnm {
+  background-color: transparent;
+  border-radius: 23.5px;
+  height: 47px;
+  left: 128px;
+  position: absolute;
+  top: 178px;
+  width: 47px;
+}
+
+.industrial-application-detail .case-studies-AJ0Y64 {
+  background-color: transparent;
+  height: 402px;
+  left: 0px;
+  position: absolute;
+  top: 1543px;
+  width: 1302px;
+}
+
+.industrial-application-detail .rectangle-24-egc3lU {
+  background-color: var(--black-haze);
+  height: 402px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 1300px;
+}
+
+.industrial-application-detail .group-19-egc3lU {
+  background-color: transparent;
+  height: 80px;
+  left: 90px;
+  position: absolute;
+  top: 154px;
+  width: 1120px;
+}
+
+.industrial-application-detail .rectangle-29-xLss6c {
+  background-color: var(--dove-gray);
+  height: 80px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 256px;
+}
+
+.industrial-application-detail .rectangle-30-xLss6c {
+  background-color: var(--dove-gray);
+  height: 80px;
+  left: 288px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 256px;
+}
+
+.industrial-application-detail .rectangle-31-xLss6c {
+  background-color: var(--dove-gray);
+  height: 80px;
+  left: 576px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 256px;
+}
+
+.industrial-application-detail .rectangle-32-xLss6c {
+  background-color: var(--dove-gray);
+  height: 80px;
+  left: 864px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 256px;
+}
+
+.industrial-application-detail .group-20-egc3lU {
+  background-color: transparent;
+  height: 80px;
+  left: 90px;
+  position: absolute;
+  top: 258px;
+  width: 1120px;
+}
+
+.industrial-application-detail .rectangle-29-JR4HmT {
+  background-color: var(--dove-gray);
+  height: 80px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 256px;
+}
+
+.industrial-application-detail .rectangle-30-JR4HmT {
+  background-color: var(--dove-gray);
+  height: 80px;
+  left: 288px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 256px;
+}
+
+.industrial-application-detail .rectangle-31-JR4HmT {
+  background-color: var(--dove-gray);
+  height: 80px;
+  left: 576px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 256px;
+}
+
+.industrial-application-detail .rectangle-32-JR4HmT {
+  background-color: var(--dove-gray);
+  height: 80px;
+  left: 864px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 256px;
+}
+
+.industrial-application-detail .youre-in-good-company-egc3lU {
+  background-color: transparent;
+  height: auto;
+  left: 434px;
+  letter-spacing: -1.00px;
+  line-height: 50px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 64px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.industrial-application-detail .case-studies-uY3JWz {
+  background-color: transparent;
+  height: auto;
+  left: 531px;
+  letter-spacing: -1.00px;
+  line-height: 50px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 2008px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.industrial-application-detail .large-carousel-AJ0Y64 {
+  background-color: transparent;
+  height: 400px;
+  left: -374px;
+  position: absolute;
+  top: 569px;
+  width: 2048px;
+}
+
+.industrial-application-detail .rectangle-56-Vq5N6H {
+  background-color: var(--mist-gray);
+  height: 400px;
+  left: 518px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 494px;
+}
+
+.industrial-application-detail .rectangle-59-Vq5N6H {
+  background-color: var(--mist-gray-2);
+  height: 400px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 494px;
+}
+
+.industrial-application-detail .rectangle-57-Vq5N6H {
+  background-color: var(--mist-gray);
+  height: 400px;
+  left: 1036px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 494px;
+}
+
+.industrial-application-detail .rectangle-58-Vq5N6H {
+  background-color: var(--mist-gray-2);
+  height: 400px;
+  left: 1554px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 494px;
+}
+
+.industrial-application-detail .icon-play-Vq5N6H {
+  background-color: transparent;
+  height: 49px;
+  left: 413px;
+  position: absolute;
+  top: 174px;
+  width: 25px;
+}
+
+.industrial-application-detail .icon-play-84HYlw {
+  background-color: transparent;
+  height: 49px;
+  left: 1609px;
+  position: absolute;
+  top: 174px;
+  width: 25px;
+}
+
+.industrial-application-detail .x10-x-abw4-lp-tres-valles-sugar-mexico-AJ0Y64 {
+  background-color: transparent;
+  height: auto;
+  left: 144px;
+  letter-spacing: 0.00px;
+  line-height: 21px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 984px;
+  width: 494px;
+}
+
+.industrial-application-detail .span0-Dx7MbZ {
+}
+
+.industrial-application-detail .span1-Dx7MbZ {
+}
+
+.industrial-application-detail .x4-x-abw4-lp-hc-s-hawaii-AJ0Y64 {
+  background-color: transparent;
+  height: auto;
+  left: 662px;
+  letter-spacing: 0.00px;
+  line-height: 21px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 984px;
+  width: 494px;
+}
+
+.industrial-application-detail .span0-ox8usd {
+}
+
+.industrial-application-detail .span1-ox8usd {
+}

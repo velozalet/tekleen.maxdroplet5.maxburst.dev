@@ -1,0 +1,1381 @@
+/* screen - home */
+
+.home {
+  background-color: var(--white);
+  height: 3913px;
+  mix-blend-mode: normal;
+  position: relative;
+  width: 1300px;
+}
+
+.home .hero-xl4bh6 {
+  background-color: transparent;
+  height: 600px;
+  left: 0px;
+  position: absolute;
+  top: 172px;
+  width: 1300px;
+}
+
+.home .navigation-bar-xl4bh6 {
+  background-color: transparent;
+  height: 124px;
+  left: 0px;
+  position: absolute;
+  top: 48px;
+  width: 1300px;
+}
+
+.home .nav-DUdYHJ {
+  background-color: var(--white);
+  box-shadow: 0px 1px 0px #ffffff4c;
+  height: 124px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 1300px;
+}
+
+.home .button-DUdYHJ {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  gap: 8px;
+  justify-content: flex-start;
+  left: 1083px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  padding-bottom: 18px;
+  padding-left: 26px;
+  padding-right: 26px;
+  padding-top: 18px;
+  position: absolute;
+  top: 32px;
+}
+
+.home .request-quote-92uRne {
+  background-color: transparent;
+  letter-spacing: 1.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: auto;
+}
+
+.home .call-us-DUdYHJ {
+  background-color: transparent;
+  height: 24px;
+  left: 893px;
+  position: absolute;
+  top: 50px;
+  width: 161px;
+}
+
+.home .x800-336-1942-VDink7 {
+  background-color: transparent;
+  height: auto;
+  left: 40px;
+  letter-spacing: 1.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.home .phone-24px-VDink7 {
+  background-color: transparent;
+  height: 24px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 24px;
+}
+
+.home .navigation-DUdYHJ {
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  gap: 32px;
+  justify-content: flex-start;
+  left: 290px;
+  overflow: hidden;
+  position: absolute;
+  top: 50px;
+}
+
+.home .industrial-Omu8Hq {
+  background-color: transparent;
+  letter-spacing: 1.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: auto;
+}
+
+.home .irrigation-Omu8Hq {
+  background-color: transparent;
+  letter-spacing: 1.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: auto;
+}
+
+.home .filters-Omu8Hq {
+  background-color: transparent;
+  letter-spacing: 1.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: auto;
+}
+
+.home .about-us-Omu8Hq {
+  background-color: transparent;
+  letter-spacing: 1.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: auto;
+}
+
+.home .logo-DUdYHJ {
+  background-color: transparent;
+  height: 44px;
+  left: 40px;
+  position: absolute;
+  top: 40px;
+  width: 194px;
+}
+
+.home .callout-bar-xl4bh6 {
+  background-color: transparent;
+  height: 48px;
+  left: 0px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  position: absolute;
+  top: 0px;
+  width: 1300px;
+}
+
+.home .rectangle-10-5M8O7E {
+  background-color: var(--log-cabin);
+  height: 48px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 1300px;
+}
+
+.home .let-our-experts-help-5M8O7E {
+  background-color: transparent;
+  height: 21px;
+  left: 399px;
+  letter-spacing: 0.00px;
+  line-height: 21px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 13px;
+  white-space: nowrap;
+  width: 507px;
+}
+
+.home .baseline-arrow_forward-24px-5M8O7E {
+  background-color: transparent;
+  height: 24px;
+  left: 914px;
+  position: absolute;
+  top: 12px;
+  width: 24px;
+}
+
+.home .sentence-cta-xl4bh6 {
+  background-color: transparent;
+  height: 326px;
+  left: 0px;
+  position: absolute;
+  top: 772px;
+  width: 1302px;
+}
+
+.home .rectangle-23-wDaUxi {
+  background-color: var(--log-cabin);
+  height: 326px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 1300px;
+}
+
+.home .i-am-an-engineer-int-wDaUxi {
+  background-color: transparent;
+  color: transparent;
+  font-family: var(--font-family-dm_sans);
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 500;
+  height: auto;
+  left: 327px;
+  letter-spacing: -1.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 64px;
+  width: 645px;
+}
+
+.home .span0-PLQtxI {
+  font-style: normal;
+  letter-spacing: -0.40px;
+}
+
+.home .span1-PLQtxI {
+  color: var(--rio-grande);
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: -0.40px;
+  text-decoration: underline;
+}
+
+.home .span2-PLQtxI {
+  font-style: normal;
+  letter-spacing: -0.40px;
+}
+
+.home .span3-PLQtxI {
+  color: var(--rio-grande);
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: -0.40px;
+  text-decoration: underline;
+}
+
+.home .span4-PLQtxI {
+  font-style: normal;
+  letter-spacing: -0.40px;
+}
+
+.home .keyboard_arrow_down-24px-2-wDaUxi {
+  background-color: transparent;
+  height: 24px;
+  left: 469px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 132px;
+  width: 24px;
+}
+
+.home .keyboard_arrow_down-24px-1-wDaUxi {
+  background-color: transparent;
+  height: 24px;
+  left: 672px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 80px;
+  width: 24px;
+}
+
+.home .button-wDaUxi {
+  align-items: center;
+  background-color: var(--log-cabin);
+  display: flex;
+  gap: 8px;
+  justify-content: flex-start;
+  left: 575px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  padding-bottom: 18px;
+  padding-left: 26px;
+  padding-right: 26px;
+  padding-top: 18px;
+  position: absolute;
+  top: 202px;
+}
+
+.home .learn-more-Owjoa3 {
+  background-color: transparent;
+  letter-spacing: 1.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: auto;
+}
+
+.home .help-cta-xl4bh6 {
+  background-color: transparent;
+  height: 360px;
+  left: 0px;
+  position: absolute;
+  top: 2459px;
+  width: 1304px;
+}
+
+.home .rectangle-23-WHOVnL {
+  background-color: var(--log-cabin);
+  height: 360px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 1300px;
+}
+
+.home .how-can-we-help-WHOVnL {
+  background-color: transparent;
+  height: auto;
+  left: 489px;
+  letter-spacing: -1.00px;
+  line-height: 50px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 64px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.home .why-do-all-the-resea-WHOVnL {
+  background-color: transparent;
+  height: auto;
+  left: 127px;
+  letter-spacing: 0.00px;
+  line-height: 28px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 148px;
+  width: 1045px;
+}
+
+.home .button-WHOVnL {
+  align-items: center;
+  background-color: var(--log-cabin);
+  display: flex;
+  gap: 8px;
+  justify-content: flex-start;
+  left: 553px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  padding-bottom: 18px;
+  padding-left: 26px;
+  padding-right: 26px;
+  padding-top: 18px;
+  position: absolute;
+  top: 236px;
+}
+
+.home .request-a-quote-gVrVUD {
+  background-color: transparent;
+  letter-spacing: 1.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: auto;
+}
+
+.home .case-studies-xl4bh6 {
+  background-color: transparent;
+  height: 428px;
+  left: 0px;
+  position: absolute;
+  top: 1509px;
+  width: 1304px;
+}
+
+.home .rectangle-24-Bsb14g {
+  background-color: var(--black-haze);
+  height: 428px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 1300px;
+}
+
+.home .group-19-Bsb14g {
+  background-color: transparent;
+  height: 80px;
+  left: 90px;
+  position: absolute;
+  top: 198px;
+  width: 1120px;
+}
+
+.home .rectangle-29-KVeXkT {
+  background-color: var(--dove-gray);
+  height: 80px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 256px;
+}
+
+.home .rectangle-30-KVeXkT {
+  background-color: var(--dove-gray);
+  height: 80px;
+  left: 288px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 256px;
+}
+
+.home .rectangle-31-KVeXkT {
+  background-color: var(--dove-gray);
+  height: 80px;
+  left: 576px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 256px;
+}
+
+.home .rectangle-32-KVeXkT {
+  background-color: var(--dove-gray);
+  height: 80px;
+  left: 864px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 256px;
+}
+
+.home .button-Bsb14g {
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  gap: 8px;
+  justify-content: flex-start;
+  left: 548px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  padding-bottom: 18px;
+  padding-left: 26px;
+  padding-right: 26px;
+  padding-top: 18px;
+  position: absolute;
+  top: 310px;
+}
+
+.home .view-case-studies-Me953n {
+  background-color: transparent;
+  letter-spacing: 1.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: auto;
+}
+
+.home .youre-in-good-company-Bsb14g {
+  background-color: transparent;
+  height: auto;
+  left: 434px;
+  letter-spacing: -1.00px;
+  line-height: 50px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 64px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.home .tekleen-filters-are-Bsb14g {
+  background-color: transparent;
+  height: auto;
+  left: 107px;
+  letter-spacing: 0.00px;
+  line-height: 28px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 140px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.home .email-cta-xl4bh6 {
+  background-color: transparent;
+  height: 178px;
+  left: 0px;
+  position: absolute;
+  top: 2819px;
+  width: 1302px;
+}
+
+.home .rectangle-25-xwdvlG {
+  background-color: var(--rio-grande);
+  height: 178px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 1300px;
+}
+
+.home .get-the-latest-from-tekleen-xwdvlG {
+  background-color: transparent;
+  height: auto;
+  left: 236px;
+  letter-spacing: 0.00px;
+  line-height: 25px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 76px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.home .button-xwdvlG {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  gap: 32px;
+  justify-content: flex-start;
+  left: 536px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  padding-bottom: 16px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 16px;
+  position: absolute;
+  top: 64px;
+}
+
+.home .email-me-updates-and-special-offers-0QoBvR {
+  background-color: transparent;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: center;
+  width: auto;
+}
+
+.home .subscribe-0QoBvR {
+  background-color: transparent;
+  letter-spacing: 1.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: auto;
+}
+
+.home .footer-xl4bh6 {
+  background-color: transparent;
+  height: 916px;
+  left: 0px;
+  position: absolute;
+  top: 2997px;
+  width: 1300px;
+}
+
+.home .rectangle-28-peWZqm {
+  background-color: transparent;
+  height: 916px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 1300px;
+}
+
+.home .group-12-peWZqm {
+  background-color: transparent;
+  height: 545px;
+  left: 293px;
+  position: absolute;
+  top: 278px;
+  width: 967px;
+}
+
+.home .industrial-ugZjr2 {
+  background-color: transparent;
+  height: 545px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 214px;
+}
+
+.home .industrial-hvac-suga-gdMuJa {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  line-height: 14px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: 212px;
+}
+
+.home .span0-DfyVkU {
+  letter-spacing: 0.14px;
+  line-height: 24px;
+}
+
+.home .span1-DfyVkU {
+  letter-spacing: 0.00px;
+  line-height: 21px;
+}
+
+.home .irrigation-ugZjr2 {
+  background-color: transparent;
+  height: 110px;
+  left: 252px;
+  position: absolute;
+  top: 0px;
+  width: 214px;
+}
+
+.home .irrigation-golf-turf-bvg7Qp {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  line-height: 14px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: 212px;
+}
+
+.home .span0-lCe2te {
+  letter-spacing: 0.14px;
+  line-height: 24px;
+}
+
+.home .span1-lCe2te {
+  letter-spacing: 0.00px;
+  line-height: 21px;
+}
+
+.home .filters-ugZjr2 {
+  background-color: transparent;
+  height: 342px;
+  left: 503px;
+  position: absolute;
+  top: 0px;
+  width: 74px;
+}
+
+.home .filters-abw-mtf-lpf-kXtDxG {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  line-height: 14px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: auto;
+}
+
+.home .span0-hoJ6UM {
+  letter-spacing: 0.14px;
+  line-height: 24px;
+}
+
+.home .span1-hoJ6UM {
+  letter-spacing: 0.00px;
+  line-height: 21px;
+}
+
+.home .about-us-ugZjr2 {
+  background-color: transparent;
+  height: 139px;
+  left: 755px;
+  position: absolute;
+  top: 0px;
+  width: 214px;
+}
+
+.home .about-us-company-ann-Liiu5x {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  line-height: 14px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: 212px;
+}
+
+.home .span0-C7L2u6 {
+  letter-spacing: 0.14px;
+  line-height: 24px;
+}
+
+.home .span1-C7L2u6 {
+  letter-spacing: 0.00px;
+  line-height: 21px;
+}
+
+.home .group-13-peWZqm {
+  background-color: transparent;
+  height: 134px;
+  left: 293px;
+  position: absolute;
+  top: 64px;
+  width: 967px;
+}
+
+.home .industrial-Xiw7J7 {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 214px;
+}
+
+.home .x2672-la-cienega-blvd-x2CoEC {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 21px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: 212px;
+}
+
+.home .irrigation-Xiw7J7 {
+  background-color: transparent;
+  height: 44px;
+  left: 252px;
+  position: absolute;
+  top: 0px;
+  width: 214px;
+}
+
+.home .email-infotekleencom-76fzzY {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  line-height: 14px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: 212px;
+}
+
+.home .span0-FNjF4o {
+  letter-spacing: 0.14px;
+  line-height: 24px;
+}
+
+.home .span1-FNjF4o {
+  letter-spacing: 0.00px;
+  line-height: 21px;
+}
+
+.home .filters-Xiw7J7 {
+  background-color: transparent;
+  height: 134px;
+  left: 503px;
+  position: absolute;
+  top: 0px;
+  width: 214px;
+}
+
+.home .call-8003361942-3108-Vd7afL {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  line-height: 14px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: 212px;
+}
+
+.home .span0-tbixC5 {
+  letter-spacing: 0.14px;
+  line-height: 24px;
+}
+
+.home .span1-tbixC5 {
+  letter-spacing: 0.00px;
+  line-height: 21px;
+}
+
+.home .span2-tbixC5 {
+  letter-spacing: 0.14px;
+  line-height: 24px;
+}
+
+.home .span3-tbixC5 {
+  letter-spacing: 0.00px;
+  line-height: 21px;
+}
+
+.home .about-us-Xiw7J7 {
+  background-color: transparent;
+  height: 104px;
+  left: 755px;
+  position: absolute;
+  top: 0px;
+  width: 212px;
+}
+
+.home .button-n2LDuz {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  gap: 8px;
+  justify-content: flex-start;
+  left: 0px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  padding-bottom: 18px;
+  padding-left: 26px;
+  padding-right: 26px;
+  padding-top: 18px;
+  position: absolute;
+  top: 0px;
+}
+
+.home .request-quote-vOagT1 {
+  background-color: transparent;
+  letter-spacing: 1.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: center;
+  width: auto;
+}
+
+.home .social-media-n2LDuz {
+  background-color: transparent;
+  height: 24px;
+  left: 0px;
+  position: absolute;
+  top: 80px;
+  width: 104px;
+}
+
+.home .facebook-RnVoou {
+  background-color: transparent;
+  height: 24px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 24px;
+}
+
+.home .icon-facebook-92RRnZ {
+  background-color: transparent;
+  height: 22px;
+  left: 1px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 1px;
+  width: 22px;
+}
+
+.home .twitter-RnVoou {
+  background-color: transparent;
+  height: 24px;
+  left: 40px;
+  position: absolute;
+  top: 0px;
+  width: 24px;
+}
+
+.home .shape-mkmnXW {
+  background-color: transparent;
+  height: 19px;
+  left: -0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 3px;
+  width: 23px;
+}
+
+.home .linked-in-RnVoou {
+  background-color: transparent;
+  height: 24px;
+  left: 80px;
+  position: absolute;
+  top: 0px;
+  width: 24px;
+}
+
+.home .icon-linkedin-wV5gtF {
+  background-color: transparent;
+  height: 22px;
+  left: 1px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 1px;
+  width: 22px;
+}
+
+.home .logo-peWZqm {
+  background-color: transparent;
+  height: 44px;
+  left: 40px;
+  position: absolute;
+  top: 64px;
+  width: 194px;
+}
+
+.home .tekleen-xaAwr7 {
+  background-color: transparent;
+  height: 26px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 1px;
+  width: 194px;
+}
+
+.home .automatic-filters-inc-xaAwr7 {
+  background-color: transparent;
+  height: 7px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 37px;
+  width: 194px;
+}
+
+.home .line-6-peWZqm {
+  background-color: transparent;
+  height: 1px;
+  left: 291px;
+  position: absolute;
+  top: 238px;
+  width: 969px;
+}
+
+.home .features-xl4bh6 {
+  background-color: transparent;
+  height: 411px;
+  left: 0px;
+  position: absolute;
+  top: 1098px;
+  width: 1300px;
+}
+
+.home .rectangle-52-6VXpiv {
+  background-color: var(--white);
+  height: 411px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 1300px;
+}
+
+.home .group-14-6VXpiv {
+  background-color: transparent;
+  height: 282px;
+  left: 78px;
+  position: absolute;
+  top: 64px;
+  width: 1144px;
+}
+
+.home .group-15-nHxFfW {
+  background-color: transparent;
+  height: 259px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 258px;
+}
+
+.home .nsf-certified-for-dr-iIyLdN {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 88px;
+  width: 256px;
+}
+
+.home .span0-aFJDId {
+  line-height: 25px;
+}
+
+.home .span1-aFJDId {
+  line-height: 24px;
+}
+
+.home .rectangle-29-iIyLdN {
+  background-color: var(--rio-grande);
+  height: 64px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 64px;
+}
+
+.home .group-16-nHxFfW {
+  background-color: transparent;
+  height: 258px;
+  left: 296px;
+  position: absolute;
+  top: 0px;
+  width: 258px;
+}
+
+.home .nsf-certified-for-dr-lKGXdF {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 88px;
+  width: 256px;
+}
+
+.home .span0-2yi9Ji {
+  line-height: 25px;
+}
+
+.home .span1-2yi9Ji {
+  line-height: 24px;
+}
+
+.home .rectangle-30-lKGXdF {
+  background-color: var(--rio-grande);
+  height: 64px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 64px;
+}
+
+.home .group-17-nHxFfW {
+  background-color: transparent;
+  height: 282px;
+  left: 592px;
+  position: absolute;
+  top: 0px;
+  width: 258px;
+}
+
+.home .nsf-certified-for-dr-yymKtO {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 88px;
+  width: 256px;
+}
+
+.home .span0-BqWgZl {
+  line-height: 25px;
+}
+
+.home .span1-BqWgZl {
+  line-height: 24px;
+}
+
+.home .rectangle-31-yymKtO {
+  background-color: var(--rio-grande);
+  height: 64px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 64px;
+}
+
+.home .group-18-nHxFfW {
+  background-color: transparent;
+  height: 259px;
+  left: 888px;
+  position: absolute;
+  top: 0px;
+  width: 258px;
+}
+
+.home .nsf-certified-for-dr-Bexz9D {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 88px;
+  width: 256px;
+}
+
+.home .span0-MKTKit {
+  line-height: 25px;
+}
+
+.home .span1-MKTKit {
+  line-height: 24px;
+}
+
+.home .rectangle-32-Bexz9D {
+  background-color: var(--rio-grande);
+  height: 64px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 64px;
+}
+
+.home .trade-shows-xl4bh6 {
+  background-color: transparent;
+  height: 522px;
+  left: 0px;
+  position: absolute;
+  top: 1937px;
+  width: 1302px;
+}
+
+.home .background-c8PHmm {
+  background-color: var(--white);
+  height: 522px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 1300px;
+}
+
+.home .columns-c8PHmm {
+  background-color: transparent;
+  height: 218px;
+  left: 202px;
+  position: absolute;
+  top: 148px;
+  width: 896px;
+}
+
+.home .img-11-vGsbx2 {
+  background-color: transparent;
+  height: 128px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 128px;
+}
+
+.home .rectangle-29-kWOOSj {
+  background-color: var(--dove-gray);
+  height: 128px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 128px;
+}
+
+.home .x2020-ahr-logo-print-square-1-kWOOSj {
+  background-color: transparent;
+  height: 128px;
+  left: 0px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  width: 128px;
+}
+
+.home .text-vGsbx2 {
+  background-color: transparent;
+  height: 218px;
+  left: 160px;
+  position: absolute;
+  top: 0px;
+  width: 260px;
+}
+
+.home .ahr-expo-2020-t2ZUZh {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 25px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: 256px;
+}
+
+.home .orange-county-conven-t2ZUZh {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 42px;
+  width: 256px;
+}
+
+.home .span0-i0dNxx {
+}
+
+.home .span1-i0dNxx {
+}
+
+.home .divider-vGsbx2 {
+  background-color: transparent;
+  height: 218px;
+  left: 447px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
+
+.home .img-11-YA1qzw {
+  background-color: transparent;
+  height: 128px;
+  left: 480px;
+  position: absolute;
+  top: 0px;
+  width: 128px;
+}
+
+.home .image-2-A1Ywil {
+  background-color: transparent;
+  height: 31px;
+  left: 0px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 48px;
+  width: 128px;
+}
+
+.home .text-YA1qzw {
+  background-color: transparent;
+  height: 162px;
+  left: 640px;
+  position: absolute;
+  top: 0px;
+  width: 260px;
+}
+
+.home .weftec-2019-Y9QGhm {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 25px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: 256px;
+}
+
+.home .atlanta-georgia-janu-Y9QGhm {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 42px;
+  width: 256px;
+}
+
+.home .span0-Z2enjC {
+}
+
+.home .span1-Z2enjC {
+}
+
+.home .button-c8PHmm {
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  gap: 8px;
+  justify-content: flex-start;
+  left: 588px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  padding-bottom: 18px;
+  padding-left: 26px;
+  padding-right: 26px;
+  padding-top: 18px;
+  position: absolute;
+  top: 398px;
+}
+
+.home .view-all-1jbhWk {
+  background-color: transparent;
+  letter-spacing: 1.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: auto;
+}
+
+.home .visit-us-at-the-following-trade-shows-c8PHmm {
+  background-color: transparent;
+  height: auto;
+  left: 329px;
+  letter-spacing: -1.00px;
+  line-height: 50px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 64px;
+  white-space: nowrap;
+  width: auto;
+}

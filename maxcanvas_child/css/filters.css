@@ -1,0 +1,2211 @@
+/* screen - filters */
+
+.filters {
+  background-color: var(--white);
+  height: 4907px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 1300px;
+}
+
+.filters .callout-bar-Am7NxG {
+  background-color: transparent;
+  height: 48px;
+  left: 0px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  position: absolute;
+  top: 0px;
+  width: 1300px;
+}
+
+.filters .rectangle-10-vrzVk7 {
+  background-color: var(--log-cabin);
+  height: 48px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 1300px;
+}
+
+.filters .let-our-experts-help-vrzVk7 {
+  background-color: transparent;
+  height: 21px;
+  left: 399px;
+  letter-spacing: 0.00px;
+  line-height: 21px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 13px;
+  white-space: nowrap;
+  width: 507px;
+}
+
+.filters .baseline-arrow_forward-24px-vrzVk7 {
+  background-color: transparent;
+  height: 24px;
+  left: 914px;
+  position: absolute;
+  top: 12px;
+  width: 24px;
+}
+
+.filters .help-cta-Am7NxG {
+  background-color: transparent;
+  height: 360px;
+  left: 0px;
+  position: absolute;
+  top: 3453px;
+  width: 1304px;
+}
+
+.filters .rectangle-23-zXWGUJ {
+  background-color: var(--log-cabin);
+  height: 360px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 1300px;
+}
+
+.filters .how-can-we-help-zXWGUJ {
+  background-color: transparent;
+  height: auto;
+  left: 488px;
+  letter-spacing: -1.00px;
+  line-height: 50px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 64px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.filters .why-do-all-the-resea-zXWGUJ {
+  background-color: transparent;
+  height: auto;
+  left: 126px;
+  letter-spacing: 0.00px;
+  line-height: 28px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 148px;
+  width: 1045px;
+}
+
+.filters .button-zXWGUJ {
+  align-items: center;
+  background-color: var(--log-cabin);
+  display: flex;
+  gap: 8px;
+  justify-content: flex-start;
+  left: 552px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  padding-bottom: 18px;
+  padding-left: 26px;
+  padding-right: 26px;
+  padding-top: 18px;
+  position: absolute;
+  top: 236px;
+}
+
+.filters .request-a-quote-7aEePd {
+  background-color: transparent;
+  letter-spacing: 1.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: auto;
+}
+
+.filters .footer-Am7NxG {
+  background-color: transparent;
+  height: 916px;
+  left: 0px;
+  position: absolute;
+  top: 3991px;
+  width: 1300px;
+}
+
+.filters .rectangle-28-pMwdX7 {
+  background-color: transparent;
+  height: 916px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 1300px;
+}
+
+.filters .group-12-pMwdX7 {
+  background-color: transparent;
+  height: 545px;
+  left: 293px;
+  position: absolute;
+  top: 278px;
+  width: 965px;
+}
+
+.filters .industrial-YSxqQX {
+  background-color: transparent;
+  height: 545px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 214px;
+}
+
+.filters .industrial-hvac-suga-NKRuz5 {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  line-height: 14px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: 212px;
+}
+
+.filters .span0-ukZTYq {
+  letter-spacing: 0.14px;
+  line-height: 24px;
+}
+
+.filters .span1-ukZTYq {
+  letter-spacing: 0.00px;
+  line-height: 21px;
+}
+
+.filters .irrigation-YSxqQX {
+  background-color: transparent;
+  height: 110px;
+  left: 251px;
+  position: absolute;
+  top: 0px;
+  width: 214px;
+}
+
+.filters .irrigation-golf-turf-D5qIJD {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  line-height: 14px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: 212px;
+}
+
+.filters .span0-KM8eVF {
+  letter-spacing: 0.14px;
+  line-height: 24px;
+}
+
+.filters .span1-KM8eVF {
+  letter-spacing: 0.00px;
+  line-height: 21px;
+}
+
+.filters .filters-YSxqQX {
+  background-color: transparent;
+  height: 342px;
+  left: 501px;
+  position: absolute;
+  top: 0px;
+  width: 74px;
+}
+
+.filters .filters-abw-mtf-lpf-hWlTOx {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  line-height: 14px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: auto;
+}
+
+.filters .span0-E0qgkD {
+  letter-spacing: 0.14px;
+  line-height: 24px;
+}
+
+.filters .span1-E0qgkD {
+  letter-spacing: 0.00px;
+  line-height: 21px;
+}
+
+.filters .about-us-YSxqQX {
+  background-color: transparent;
+  height: 139px;
+  left: 753px;
+  position: absolute;
+  top: 0px;
+  width: 214px;
+}
+
+.filters .about-us-company-ann-xRZnOz {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  line-height: 14px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: 212px;
+}
+
+.filters .span0-PUGbUz {
+  letter-spacing: 0.14px;
+  line-height: 24px;
+}
+
+.filters .span1-PUGbUz {
+  letter-spacing: 0.00px;
+  line-height: 21px;
+}
+
+.filters .group-13-pMwdX7 {
+  background-color: transparent;
+  height: 134px;
+  left: 293px;
+  position: absolute;
+  top: 64px;
+  width: 965px;
+}
+
+.filters .industrial-Q4N5Ix {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 214px;
+}
+
+.filters .x2672-la-cienega-blvd-xcKUvu {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 21px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: 212px;
+}
+
+.filters .irrigation-Q4N5Ix {
+  background-color: transparent;
+  height: 44px;
+  left: 251px;
+  position: absolute;
+  top: 0px;
+  width: 214px;
+}
+
+.filters .email-infotekleencom-SdyQt9 {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  line-height: 14px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: 212px;
+}
+
+.filters .span0-Rw9UR9 {
+  letter-spacing: 0.14px;
+  line-height: 24px;
+}
+
+.filters .span1-Rw9UR9 {
+  letter-spacing: 0.00px;
+  line-height: 21px;
+}
+
+.filters .filters-Q4N5Ix {
+  background-color: transparent;
+  height: 134px;
+  left: 501px;
+  position: absolute;
+  top: 0px;
+  width: 214px;
+}
+
+.filters .call-8003361942-3108-y3aDbh {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  line-height: 14px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: 212px;
+}
+
+.filters .span0-8Ijkw8 {
+  letter-spacing: 0.14px;
+  line-height: 24px;
+}
+
+.filters .span1-8Ijkw8 {
+  letter-spacing: 0.00px;
+  line-height: 21px;
+}
+
+.filters .span2-8Ijkw8 {
+  letter-spacing: 0.14px;
+  line-height: 24px;
+}
+
+.filters .span3-8Ijkw8 {
+  letter-spacing: 0.00px;
+  line-height: 21px;
+}
+
+.filters .about-us-Q4N5Ix {
+  background-color: transparent;
+  height: 104px;
+  left: 753px;
+  position: absolute;
+  top: 0px;
+  width: 212px;
+}
+
+.filters .button-jxSzXm {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  gap: 8px;
+  justify-content: flex-start;
+  left: 0px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  padding-bottom: 18px;
+  padding-left: 26px;
+  padding-right: 26px;
+  padding-top: 18px;
+  position: absolute;
+  top: 0px;
+}
+
+.filters .request-quote-xjmRMY {
+  background-color: transparent;
+  letter-spacing: 1.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: center;
+  width: auto;
+}
+
+.filters .social-media-jxSzXm {
+  background-color: transparent;
+  height: 24px;
+  left: 0px;
+  position: absolute;
+  top: 80px;
+  width: 104px;
+}
+
+.filters .facebook-gRNY2Y {
+  background-color: transparent;
+  height: 24px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 24px;
+}
+
+.filters .icon-facebook-zZSxIM {
+  background-color: transparent;
+  height: 22px;
+  left: 1px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 1px;
+  width: 22px;
+}
+
+.filters .twitter-gRNY2Y {
+  background-color: transparent;
+  height: 24px;
+  left: 40px;
+  position: absolute;
+  top: 0px;
+  width: 24px;
+}
+
+.filters .shape-qLExZz {
+  background-color: transparent;
+  height: 19px;
+  left: -0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 3px;
+  width: 23px;
+}
+
+.filters .linked-in-gRNY2Y {
+  background-color: transparent;
+  height: 24px;
+  left: 80px;
+  position: absolute;
+  top: 0px;
+  width: 24px;
+}
+
+.filters .icon-linkedin-Hwaqob {
+  background-color: transparent;
+  height: 22px;
+  left: 1px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 1px;
+  width: 22px;
+}
+
+.filters .logo-pMwdX7 {
+  background-color: transparent;
+  height: 44px;
+  left: 40px;
+  position: absolute;
+  top: 64px;
+  width: 194px;
+}
+
+.filters .tekleen-YgJxqx {
+  background-color: transparent;
+  height: 26px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 1px;
+  width: 194px;
+}
+
+.filters .automatic-filters-inc-YgJxqx {
+  background-color: transparent;
+  height: 7px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 37px;
+  width: 194px;
+}
+
+.filters .line-6-pMwdX7 {
+  background-color: transparent;
+  height: 1px;
+  left: 291px;
+  position: absolute;
+  top: 238px;
+  width: 969px;
+}
+
+.filters .email-cta-Am7NxG {
+  background-color: transparent;
+  height: 178px;
+  left: 0px;
+  position: absolute;
+  top: 3813px;
+  width: 1302px;
+}
+
+.filters .rectangle-25-WyM51z {
+  background-color: var(--rio-grande);
+  height: 178px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 1300px;
+}
+
+.filters .get-the-latest-from-tekleen-WyM51z {
+  background-color: transparent;
+  height: auto;
+  left: 236px;
+  letter-spacing: 0.00px;
+  line-height: 25px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 76px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.filters .button-WyM51z {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  gap: 32px;
+  justify-content: flex-start;
+  left: 536px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  padding-bottom: 16px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 16px;
+  position: absolute;
+  top: 64px;
+}
+
+.filters .email-me-updates-and-special-offers-9VdIL7 {
+  background-color: transparent;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: center;
+  width: auto;
+}
+
+.filters .subscribe-9VdIL7 {
+  background-color: transparent;
+  letter-spacing: 1.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: auto;
+}
+
+.filters .navigation-bar-hover-Am7NxG {
+  background-color: transparent;
+  height: 124px;
+  left: 0px;
+  position: absolute;
+  top: 48px;
+  width: 1300px;
+}
+
+.filters .navigation-bar-hYo731 {
+  background-color: transparent;
+  height: 124px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1300px;
+}
+
+.filters .nav-sJhouu {
+  background-color: var(--white);
+  box-shadow: 0px 1px 0px #d9d9d9;
+  height: 124px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 1300px;
+}
+
+.filters .button-sJhouu {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  gap: 8px;
+  justify-content: flex-start;
+  left: 1081px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  padding-bottom: 18px;
+  padding-left: 26px;
+  padding-right: 26px;
+  padding-top: 18px;
+  position: absolute;
+  top: 32px;
+}
+
+.filters .request-quote-WX3Yz1 {
+  background-color: transparent;
+  letter-spacing: 1.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: auto;
+}
+
+.filters .call-us-sJhouu {
+  background-color: transparent;
+  height: 24px;
+  left: 892px;
+  position: absolute;
+  top: 50px;
+  width: 161px;
+}
+
+.filters .x800-336-1942-3vUxsb {
+  background-color: transparent;
+  height: auto;
+  left: 40px;
+  letter-spacing: 1.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.filters .phone-24px-3vUxsb {
+  background-color: transparent;
+  height: 24px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 24px;
+}
+
+.filters .navigation-sJhouu {
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  gap: 32px;
+  justify-content: flex-start;
+  left: 290px;
+  overflow: hidden;
+  position: absolute;
+  top: 50px;
+}
+
+.filters .industrial-fq1X1z {
+  background-color: transparent;
+  letter-spacing: 1.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: auto;
+}
+
+.filters .irrigation-fq1X1z {
+  background-color: transparent;
+  letter-spacing: 1.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: auto;
+}
+
+.filters .filters-fq1X1z {
+  background-color: transparent;
+  letter-spacing: 1.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: auto;
+}
+
+.filters .about-us-fq1X1z {
+  background-color: transparent;
+  letter-spacing: 1.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: auto;
+}
+
+.filters .logo-sJhouu {
+  background-color: transparent;
+  height: 44px;
+  left: 40px;
+  position: absolute;
+  top: 40px;
+  width: 194px;
+}
+
+.filters .rectangle-51-hYo731 {
+  background-color: var(--pistachio);
+  height: 8px;
+  left: 529px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 116px;
+  width: 57px;
+}
+
+.filters .filters-Am7NxG {
+  background-color: transparent;
+  height: auto;
+  left: 40px;
+  letter-spacing: -1.00px;
+  line-height: 35px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 635px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.filters .why-choose-automatic-filters-Am7NxG {
+  background-color: transparent;
+  height: auto;
+  left: 40px;
+  letter-spacing: -1.00px;
+  line-height: 35px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 2834px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.filters .how-do-competing-fil-Am7NxG {
+  background-color: transparent;
+  height: auto;
+  left: 40px;
+  letter-spacing: 0.00px;
+  line-height: 28px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 2885px;
+  white-space: nowrap;
+  width: 830px;
+}
+
+.filters .features-Am7NxG {
+  background-color: transparent;
+  height: 515px;
+  left: 40px;
+  position: absolute;
+  top: 711px;
+  width: 806px;
+}
+
+.filters .group-14-LIsvzu {
+  background-color: transparent;
+  height: 515px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 806px;
+}
+
+.filters .group-15-RRcMIi {
+  background-color: transparent;
+  height: 491px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 393px;
+}
+
+.filters .abw-series-automatic-qeFgxk {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 243px;
+  width: 391px;
+}
+
+.filters .span0-IsF3wH {
+}
+
+.filters .span1-IsF3wH {
+}
+
+.filters .button-qeFgxk {
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  gap: 8px;
+  justify-content: flex-start;
+  left: 0px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  padding-bottom: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 12px;
+  position: absolute;
+  top: 443px;
+}
+
+.filters .details-rWGxSW {
+  background-color: transparent;
+  letter-spacing: 1.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: auto;
+}
+
+.filters .rectangle-56-qeFgxk {
+  background-color: var(--mist-gray);
+  height: 219px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 391px;
+}
+
+.filters .group-18-RRcMIi {
+  background-color: transparent;
+  height: 515px;
+  left: 415px;
+  position: absolute;
+  top: 0px;
+  width: 393px;
+}
+
+.filters .mtf-series-tekleen-m-SfTOC7 {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 243px;
+  width: 391px;
+}
+
+.filters .span0-sgaja5 {
+}
+
+.filters .span1-sgaja5 {
+}
+
+.filters .button-SfTOC7 {
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  gap: 8px;
+  justify-content: flex-start;
+  left: 0px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  padding-bottom: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 12px;
+  position: absolute;
+  top: 467px;
+}
+
+.filters .details-Ko9K04 {
+  background-color: transparent;
+  letter-spacing: 1.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: auto;
+}
+
+.filters .rectangle-56-SfTOC7 {
+  background-color: var(--mist-gray);
+  height: 219px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 391px;
+}
+
+.filters .features-LyxTsT {
+  background-color: transparent;
+  height: 467px;
+  left: 40px;
+  position: absolute;
+  top: 1749px;
+  width: 805px;
+}
+
+.filters .group-14-5Nojty {
+  background-color: transparent;
+  height: 467px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 805px;
+}
+
+.filters .group-18-OuelYx {
+  background-color: transparent;
+  height: 419px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 393px;
+}
+
+.filters .csb-series-coarse-sc-2cmmYM {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 243px;
+  width: 391px;
+}
+
+.filters .span0-hxEUkN {
+}
+
+.filters .span1-hxEUkN {
+}
+
+.filters .button-2cmmYM {
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  gap: 8px;
+  justify-content: flex-start;
+  left: 0px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  padding-bottom: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 12px;
+  position: absolute;
+  top: 371px;
+}
+
+.filters .details-MPElDe {
+  background-color: transparent;
+  letter-spacing: 1.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: auto;
+}
+
+.filters .rectangle-56-2cmmYM {
+  background-color: var(--mist-gray);
+  height: 219px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 391px;
+}
+
+.filters .group-19-OuelYx {
+  background-color: transparent;
+  height: 467px;
+  left: 414px;
+  position: absolute;
+  top: 0px;
+  width: 393px;
+}
+
+.filters .csf-series-the-coars-3OFgPH {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 243px;
+  width: 391px;
+}
+
+.filters .span0-Q28MXR {
+}
+
+.filters .span1-Q28MXR {
+}
+
+.filters .button-3OFgPH {
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  gap: 8px;
+  justify-content: flex-start;
+  left: 1px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  padding-bottom: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 12px;
+  position: absolute;
+  top: 419px;
+}
+
+.filters .details-BTcAbD {
+  background-color: transparent;
+  letter-spacing: 1.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: auto;
+}
+
+.filters .rectangle-56-3OFgPH {
+  background-color: var(--mist-gray);
+  height: 219px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 391px;
+}
+
+.filters .features-YDmBmr {
+  background-color: transparent;
+  height: 443px;
+  left: 40px;
+  position: absolute;
+  top: 1266px;
+  width: 806px;
+}
+
+.filters .group-14-6itzEu {
+  background-color: transparent;
+  height: 443px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 806px;
+}
+
+.filters .group-15-bpdZRE {
+  background-color: transparent;
+  height: 443px;
+  left: 415px;
+  position: absolute;
+  top: 0px;
+  width: 393px;
+}
+
+.filters .obf-series-automatic-vs3Rmv {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 243px;
+  width: 391px;
+}
+
+.filters .span0-HVyZCg {
+}
+
+.filters .span1-HVyZCg {
+}
+
+.filters .button-vs3Rmv {
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  gap: 8px;
+  justify-content: flex-start;
+  left: 0px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  padding-bottom: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 12px;
+  position: absolute;
+  top: 395px;
+}
+
+.filters .details-Vxbzlq {
+  background-color: transparent;
+  letter-spacing: 1.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: auto;
+}
+
+.filters .rectangle-56-vs3Rmv {
+  background-color: var(--mist-gray);
+  height: 219px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 391px;
+}
+
+.filters .group-20-bpdZRE {
+  background-color: transparent;
+  height: 443px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 393px;
+}
+
+.filters .lpf-series-the-low-p-mF0WQx {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 243px;
+  width: 391px;
+}
+
+.filters .span0-zy6tt1 {
+}
+
+.filters .span1-zy6tt1 {
+}
+
+.filters .button-mF0WQx {
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  gap: 8px;
+  justify-content: flex-start;
+  left: 1px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  padding-bottom: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 12px;
+  position: absolute;
+  top: 395px;
+}
+
+.filters .details-AHoHsN {
+  background-color: transparent;
+  letter-spacing: 1.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: auto;
+}
+
+.filters .rectangle-56-mF0WQx {
+  background-color: var(--mist-gray);
+  height: 219px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 391px;
+}
+
+.filters .features-TswZOQ {
+  background-color: transparent;
+  height: 515px;
+  left: 40px;
+  position: absolute;
+  top: 2256px;
+  width: 806px;
+}
+
+.filters .group-14-7hOc52 {
+  background-color: transparent;
+  height: 515px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 806px;
+}
+
+.filters .group-15-XNajfF {
+  background-color: transparent;
+  height: 419px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 393px;
+}
+
+.filters .csf-abw-series-csf-a-5TsIau {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 243px;
+  width: 391px;
+}
+
+.filters .span0-HxaBLt {
+}
+
+.filters .span1-HxaBLt {
+}
+
+.filters .button-5TsIau {
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  gap: 8px;
+  justify-content: flex-start;
+  left: 0px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  padding-bottom: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 12px;
+  position: absolute;
+  top: 371px;
+}
+
+.filters .details-FCLJxH {
+  background-color: transparent;
+  letter-spacing: 1.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: auto;
+}
+
+.filters .rectangle-56-5TsIau {
+  background-color: var(--mist-gray);
+  height: 219px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 391px;
+}
+
+.filters .group-18-XNajfF {
+  background-color: transparent;
+  height: 515px;
+  left: 415px;
+  position: absolute;
+  top: 0px;
+  width: 393px;
+}
+
+.filters .skid-series-filter-s-hpKQSu {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 243px;
+  width: 391px;
+}
+
+.filters .span0-UFnGHq {
+}
+
+.filters .span1-UFnGHq {
+}
+
+.filters .button-hpKQSu {
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  gap: 8px;
+  justify-content: flex-start;
+  left: 0px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  padding-bottom: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 12px;
+  position: absolute;
+  top: 467px;
+}
+
+.filters .details-4oMxZF {
+  background-color: transparent;
+  letter-spacing: 1.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: auto;
+}
+
+.filters .rectangle-56-hpKQSu {
+  background-color: var(--mist-gray);
+  height: 219px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 391px;
+}
+
+.filters .comparison-Am7NxG {
+  background-color: transparent;
+  height: 455px;
+  left: 40px;
+  position: absolute;
+  top: 2934px;
+  width: 1226px;
+}
+
+.filters .rectangle-57-xS0ICi {
+  background-color: var(--white);
+  box-shadow: 0px 1px 0px #d9d9d9;
+  height: 56px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 1220px;
+}
+
+.filters .tekleen-automatic-filters-xS0ICi {
+  background-color: transparent;
+  height: auto;
+  left: 346px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 17px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.filters .sand-media-filter-xS0ICi {
+  background-color: transparent;
+  height: auto;
+  left: 697px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 17px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.filters .separator-hydrocyclone-xS0ICi {
+  background-color: transparent;
+  height: auto;
+  left: 970px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 17px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.filters .group-24-xS0ICi {
+  background-color: transparent;
+  height: 56px;
+  left: 0px;
+  position: absolute;
+  top: 57px;
+  width: 1222px;
+}
+
+.filters .rectangle-57-KKOs92 {
+  background-color: var(--white);
+  box-shadow: 0px 1px 0px #d9d9d9;
+  height: 56px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 1220px;
+}
+
+.filters .check-24px-KKOs92 {
+  background-color: transparent;
+  height: 24px;
+  left: 441px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 16px;
+  width: 24px;
+}
+
+.filters .icon-close-KKOs92 {
+  background-color: transparent;
+  height: 24px;
+  left: 751px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 16px;
+  width: 24px;
+}
+
+.filters .icon-close-2c0xny {
+  background-color: transparent;
+  height: 24px;
+  left: 1057px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 16px;
+  width: 24px;
+}
+
+.filters .positive-filtration-KKOs92 {
+  background-color: transparent;
+  height: auto;
+  left: 24px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 16px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.filters .group-25-xS0ICi {
+  background-color: transparent;
+  height: 56px;
+  left: 0px;
+  position: absolute;
+  top: 114px;
+  width: 1222px;
+}
+
+.filters .rectangle-57-eCDsMj {
+  background-color: var(--white);
+  box-shadow: 0px 1px 0px #d9d9d9;
+  height: 56px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 1220px;
+}
+
+.filters .check-24px-eCDsMj {
+  background-color: transparent;
+  height: 24px;
+  left: 441px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 16px;
+  width: 24px;
+}
+
+.filters .icon-close-eCDsMj {
+  background-color: transparent;
+  height: 24px;
+  left: 751px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 16px;
+  width: 24px;
+}
+
+.filters .icon-close-Bx8QFl {
+  background-color: transparent;
+  height: 24px;
+  left: 1057px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 16px;
+  width: 24px;
+}
+
+.filters .absolute-filtration-eCDsMj {
+  background-color: transparent;
+  height: auto;
+  left: 24px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 16px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.filters .group-26-xS0ICi {
+  background-color: transparent;
+  height: 56px;
+  left: 0px;
+  position: absolute;
+  top: 171px;
+  width: 1222px;
+}
+
+.filters .rectangle-57-9svxfn {
+  background-color: var(--white);
+  box-shadow: 0px 1px 0px #d9d9d9;
+  height: 56px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 1220px;
+}
+
+.filters .check-24px-9svxfn {
+  background-color: transparent;
+  height: 24px;
+  left: 441px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 16px;
+  width: 24px;
+}
+
+.filters .icon-close-9svxfn {
+  background-color: transparent;
+  height: 24px;
+  left: 751px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 16px;
+  width: 24px;
+}
+
+.filters .icon-close-sbyJ9N {
+  background-color: transparent;
+  height: 24px;
+  left: 1057px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 16px;
+  width: 24px;
+}
+
+.filters .organic-matter-9svxfn {
+  background-color: transparent;
+  height: auto;
+  left: 24px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 16px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.filters .group-27-xS0ICi {
+  background-color: transparent;
+  height: 56px;
+  left: 0px;
+  position: absolute;
+  top: 228px;
+  width: 1222px;
+}
+
+.filters .rectangle-57-VyW8Ee {
+  background-color: var(--white);
+  box-shadow: 0px 1px 0px #d9d9d9;
+  height: 56px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 1220px;
+}
+
+.filters .check-24px-VyW8Ee {
+  background-color: transparent;
+  height: 24px;
+  left: 441px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 16px;
+  width: 24px;
+}
+
+.filters .icon-close-VyW8Ee {
+  background-color: transparent;
+  height: 24px;
+  left: 751px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 16px;
+  width: 24px;
+}
+
+.filters .icon-close-ccdNjx {
+  background-color: transparent;
+  height: 24px;
+  left: 1057px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 16px;
+  width: 24px;
+}
+
+.filters .inorganic-matter-VyW8Ee {
+  background-color: transparent;
+  height: auto;
+  left: 24px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 16px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.filters .group-28-xS0ICi {
+  background-color: transparent;
+  height: 56px;
+  left: 0px;
+  position: absolute;
+  top: 285px;
+  width: 1222px;
+}
+
+.filters .rectangle-57-qzCPWj {
+  background-color: var(--white);
+  box-shadow: 0px 1px 0px #d9d9d9;
+  height: 56px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 1220px;
+}
+
+.filters .check-24px-qzCPWj {
+  background-color: transparent;
+  height: 24px;
+  left: 441px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 16px;
+  width: 24px;
+}
+
+.filters .icon-close-qzCPWj {
+  background-color: transparent;
+  height: 24px;
+  left: 751px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 16px;
+  width: 24px;
+}
+
+.filters .icon-close-7kxNhY {
+  background-color: transparent;
+  height: 24px;
+  left: 1057px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 16px;
+  width: 24px;
+}
+
+.filters .pressure-usage-qzCPWj {
+  background-color: transparent;
+  height: auto;
+  left: 24px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 16px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.filters .group-30-xS0ICi {
+  background-color: transparent;
+  height: 56px;
+  left: 0px;
+  position: absolute;
+  top: 399px;
+  width: 1222px;
+}
+
+.filters .rectangle-57-NmN7JN {
+  background-color: var(--white);
+  box-shadow: 0px 1px 0px #d9d9d9;
+  height: 56px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 1220px;
+}
+
+.filters .check-24px-NmN7JN {
+  background-color: transparent;
+  height: 24px;
+  left: 441px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 16px;
+  width: 24px;
+}
+
+.filters .icon-close-NmN7JN {
+  background-color: transparent;
+  height: 24px;
+  left: 751px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 16px;
+  width: 24px;
+}
+
+.filters .icon-close-1P3CpI {
+  background-color: transparent;
+  height: 24px;
+  left: 1057px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 16px;
+  width: 24px;
+}
+
+.filters .installation-NmN7JN {
+  background-color: transparent;
+  height: auto;
+  left: 24px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 16px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.filters .group-29-xS0ICi {
+  background-color: transparent;
+  height: 56px;
+  left: 0px;
+  position: absolute;
+  top: 342px;
+  width: 1222px;
+}
+
+.filters .rectangle-57-ZONGaa {
+  background-color: var(--white);
+  box-shadow: 0px 1px 0px #d9d9d9;
+  height: 56px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 1220px;
+}
+
+.filters .check-24px-ZONGaa {
+  background-color: transparent;
+  height: 24px;
+  left: 441px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 16px;
+  width: 24px;
+}
+
+.filters .icon-close-ZONGaa {
+  background-color: transparent;
+  height: 24px;
+  left: 751px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 16px;
+  width: 24px;
+}
+
+.filters .icon-close-6dtMtw {
+  background-color: transparent;
+  height: 24px;
+  left: 1057px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 16px;
+  width: 24px;
+}
+
+.filters .cleaning-mechanism-ZONGaa {
+  background-color: transparent;
+  height: auto;
+  left: 24px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 16px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.filters .accessories-Am7NxG {
+  background-color: transparent;
+  height: auto;
+  left: 910px;
+  letter-spacing: -1.00px;
+  line-height: 35px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 635px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.filters .group-15-Am7NxG {
+  background-color: transparent;
+  height: 224px;
+  left: 910px;
+  position: absolute;
+  top: 711px;
+  width: 350px;
+}
+
+.filters .controllers-controll-2ihHcb {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 88px;
+  width: 348px;
+}
+
+.filters .span0-ao9T11 {
+}
+
+.filters .span1-ao9T11 {
+}
+
+.filters .span2-ao9T11 {
+}
+
+.filters .rectangle-29-2ihHcb {
+  background-color: var(--rio-grande);
+  height: 64px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 64px;
+}
+
+.filters .group-16-Am7NxG {
+  background-color: transparent;
+  height: 224px;
+  left: 910px;
+  position: absolute;
+  top: 975px;
+  width: 352px;
+}
+
+.filters .valves-automatic-fil-vZAfxB {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 88px;
+  width: 350px;
+}
+
+.filters .span0-WaNFJU {
+}
+
+.filters .span1-WaNFJU {
+}
+
+.filters .span2-WaNFJU {
+}
+
+.filters .rectangle-29-vZAfxB {
+  background-color: var(--rio-grande);
+  height: 64px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 64px;
+}
+
+.filters .group-17-Am7NxG {
+  background-color: transparent;
+  height: 248px;
+  left: 910px;
+  position: absolute;
+  top: 1239px;
+  width: 350px;
+}
+
+.filters .screens-tekleen-offe-mnG8xP {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 88px;
+  width: 348px;
+}
+
+.filters .span0-mm2Vpz {
+}
+
+.filters .span1-mm2Vpz {
+}
+
+.filters .span2-mm2Vpz {
+}
+
+.filters .rectangle-29-mnG8xP {
+  background-color: var(--rio-grande);
+  height: 64px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 64px;
+}
+
+.filters .group-18-Am7NxG {
+  background-color: transparent;
+  height: 224px;
+  left: 910px;
+  position: absolute;
+  top: 1527px;
+  width: 352px;
+}
+
+.filters .gauges-the-different-8yTgWs {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 88px;
+  width: 350px;
+}
+
+.filters .span0-hF9KpC {
+}
+
+.filters .span1-hF9KpC {
+}
+
+.filters .span2-hF9KpC {
+}
+
+.filters .rectangle-29-8yTgWs {
+  background-color: var(--rio-grande);
+  height: 64px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 64px;
+}
+
+.filters .contact-us-Am7NxG {
+  background-color: transparent;
+  height: auto;
+  left: 910px;
+  letter-spacing: -1.00px;
+  line-height: 35px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 1830px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.filters .let-us-know-what-you-Am7NxG {
+  background-color: transparent;
+  height: auto;
+  left: 910px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 1889px;
+  width: 350px;
+}
+
+.filters .button-Am7NxG {
+  align-items: center;
+  background-color: var(--log-cabin);
+  display: flex;
+  gap: 8px;
+  justify-content: flex-start;
+  left: 910px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  padding-bottom: 18px;
+  padding-left: 26px;
+  padding-right: 26px;
+  padding-top: 18px;
+  position: absolute;
+  top: 1986px;
+}
+
+.filters .get-started-E0rSEt {
+  background-color: transparent;
+  letter-spacing: 1.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: auto;
+}
+
+.filters .line-8-Am7NxG {
+  background-color: transparent;
+  height: 1px;
+  left: 910px;
+  position: absolute;
+  top: 1790px;
+  width: 350px;
+}
+
+.filters .hero-Am7NxG {
+  background-color: transparent;
+  height: 400px;
+  left: 0px;
+  position: absolute;
+  top: 172px;
+  width: 1300px;
+}
+
+.filters .rectangle-24-VV7CFA {
+  background-color: var(--concrete);
+  height: 400px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 1300px;
+}
+
+.filters .image-8-VV7CFA {
+  background-color: transparent;
+  height: 386px;
+  left: 702px;
+  mix-blend-mode: multiply;
+  object-fit: cover;
+  position: absolute;
+  top: 7px;
+  width: 526px;
+}
+
+.filters .copy-VV7CFA {
+  background-color: transparent;
+  height: 179px;
+  left: 40px;
+  position: absolute;
+  top: 110px;
+  width: 602px;
+}
+
+.filters .keep-your-systems-up-8jPtGx {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 28px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 67px;
+  width: 598px;
+}
+
+.filters .automatic-self-clea-8jPtGx {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: -1.00px;
+  line-height: 50px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: 598px;
+}

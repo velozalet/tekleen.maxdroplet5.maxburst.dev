@@ -1,0 +1,8 @@
+/*Dashicons custom color For Custom Posts Type*/
+.wp-admin #adminmenuwrap li#menu-posts-companies .wp-menu-image.dashicons-before:before{ color:brown; }
+.wp-admin #adminmenuwrap li#menu-posts-shows .wp-menu-image.dashicons-before:before{ color:blue; }
+.wp-admin #adminmenuwrap li#menu-posts-industrial .wp-menu-image.dashicons-before:before{ color:red; }
+.wp-admin #adminmenuwrap li#menu-posts-irrigations .wp-menu-image.dashicons-before:before{ color:#ffc26a; }
+.wp-admin #adminmenuwrap li#menu-posts-filters .wp-menu-image.dashicons-before:before{ color:#2e8019; }
+.wp-admin #adminmenuwrap li#menu-posts-cases .wp-menu-image.dashicons-before:before{ color: #c68a08; }
+/*__/Dashicons custom color For Custom Posts Type*/
