@@ -198,6 +198,15 @@ document.addEventListener( 'DOMContentLoaded', function () {
 		const emptyWeightValueCollection__m = tableFilterModels.querySelectorAll('tbody > tr td:nth-of-type(5) span:first-of-type'),
 		      emptyWeightValueCollection__i = tableFilterModels.querySelectorAll('tbody > tr td:nth-of-type(5) span:last-of-type');
 
+		const inputSearchByDocumentTitle = singleFiltersPage.querySelector('.__filter_documentation_tab input[type="text"]');
+		const tableDocumentation = singleFiltersPage.querySelector('.__filter_documentation_tab  > table');
+		const tableDocumentationLength = tableDocumentation.querySelectorAll('tbody > tr ').length;
+		const documentTitlesCollection = tableDocumentation.querySelectorAll('tbody > tr td:nth-of-type(2)');
+		const documentTypeCollection = tableDocumentation.querySelectorAll('tbody > tr td:nth-of-type(3)');
+
+		const sortingSelectDocumenttypeFilterModels = document.getElementById('sorting__select_documenttype_filter_models');
+
+
 		const unitsMeasurement = {
 			metric: {
 				mm: '(mm)',
@@ -211,8 +220,7 @@ document.addEventListener( 'DOMContentLoaded', function () {
 				gpm: '(gpm)',
 				lbs: '(lbs)',
 			}
-		}; console.log(unitsMeasurement);
-
+		};
 
 		//______________________________________________________________________________________________________________
 		/**Clicks on tabs of tabular data*/
@@ -325,6 +333,42 @@ document.addEventListener( 'DOMContentLoaded', function () {
 		}
 		/**__/Click select metric/imperal for "Filter Models" Table */
 
+
+		/** Searching by document title for "Filter Documentation" Table */
+		function titleSearch(collection){
+			return function(event) {
+				let inputValue = event.currentTarget.value.toUpperCase();
+				for( i=0; i < collection.length; i++ ){
+					let summary = collection[i];
+
+					if( summary.innerHTML.toUpperCase().indexOf(inputValue) > -1 ){ collection[i].parentElement.classList.remove('display-none') }
+					else { collection[i].parentElement.classList.add('display-none') }
+				}
+			}
+		}
+		inputSearchByDocumentTitle.addEventListener( "keyup", titleSearch(documentTitlesCollection) );
+		/**__/Searching by document title for "Filter Documentation" Table */
+
+
+		/** Select from dropdown for filtering by Document type*/
+		sortingSelectDocumenttypeFilterModels.onchange = function(event){
+			let currentValue = event.currentTarget.value.toUpperCase();
+
+				for( let item of documentTypeCollection ){
+					if( currentValue !== 'ALL DOCUMENTS' ){
+						if( item.textContent.toUpperCase().trim() === currentValue ){
+							item.parentElement.classList.remove('display-none');
+						}else{
+							item.parentElement.classList.add('display-none');
+						}
+					}else{
+						item.parentElement.classList.remove('display-none');
+					}
+				}
+		}
+		/** Select from dropdown for filtering by Document type */
+
 	}
 	/*__________________________________________/Single Filter" Page*/
+
 });

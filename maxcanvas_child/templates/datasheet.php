@@ -71,33 +71,9 @@ get_header(); ?>
         </div>
     </main>
     <!-- end section-->
-    <!-- section-->
-    <section class="section" style="background: #222222;">
-        <!-- help-->
-        <div class="help">
-            <div class="help__container container">
-                <h2 class="help__title">How can we help?</h2>
-                <div class="help__caption">Why do all the research on your own? We have trained specialists with decades of experience who can help you design the perfect filtration system to meet your needs. Fill out a simple form and we’ll get right back to you.</div>
-                <a
-                class="btn btn-outline-white help__btn" href="#">Request a quote</a>
-            </div>
-        </div>
-        <!-- end help-->
-    </section>
-    <!-- end section-->
-    <div class="subs">
-        <div class="subs__container container">
-            <div class="subs__inner">
-                <div class="subs__title">Get the latest from TEKLEEN</div>
-                <form class="subs__form" action="#">
-                    <div class="subs__field">
-                        <input class="subs__input" type="email" required placeholder="Email me updates and special offers">
-                        <button class="subs__send">subscribe</button>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
+
+	<?php get_template_part('templates/content/flexible-content');?>
+
 </div>
 <!-- end body-->
 

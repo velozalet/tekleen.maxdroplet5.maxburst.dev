@@ -11,7 +11,7 @@ get_header(); ?>
       <!-- promo-->
       <div class="promo">
           <div class="promo__container container is-large">
-              <div class="promo__inner">
+              <div class="promo__inner" >
 				  <?php get_template_part('templates/component/page-subheader');?>
               </div>
           </div>

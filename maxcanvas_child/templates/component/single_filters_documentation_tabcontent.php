@@ -3,6 +3,20 @@
 <!--__filter_documentation_tab-->
 <div class="about-table__tab __filter_documentation_tab" data-view="documentation">
 	<?php //dd($documentation_table_info);?>
+	<div>
+		<input type="text" placeholder="Search by document title">
+		<div id="sorting__select_documenttype_filter_models" class="sorting__select">
+			<select class="js-select" data-placeholder="all documents">
+				<option value="all documents">all documents</option>
+				<option value="cutaway">cutaway</option>
+				<option value="installation layout">installation layout</option>
+				<option value="manual">manual</option>
+				<option value="material of construction">material of construction</option>
+				<option value="assembly">assembly</option>
+			</select>
+		</div>
+	</div>
+
 	<table class="about-table__table single-filter--documentation">
 		<thead>
 		<tr style="background-color:#A2B900;">

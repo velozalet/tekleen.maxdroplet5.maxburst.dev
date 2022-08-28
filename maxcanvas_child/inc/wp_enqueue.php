@@ -9,10 +9,13 @@ if ( ! function_exists( 'maxcanvas_child_scripts_styles' ) ):
     // Core styles
     //wp_enqueue_style('style-guide', get_stylesheet_directory_uri() . '/css/styleguide.css');
     //wp_enqueue_style('global', get_stylesheet_directory_uri() . '/css/globals.css');
-    wp_enqueue_style('main-style', get_stylesheet_directory_uri() . '/css/main.css');
-	  wp_enqueue_script('vue_js-script', get_stylesheet_directory_uri() . '/js/vue_3.2.36.js', array('main-script','global-script'), false, true);
-    wp_enqueue_script('main-script', get_stylesheet_directory_uri() . '/js/main.js', array(), false, true);
+	  wp_enqueue_style('wow-style', get_stylesheet_directory_uri() . '/wow-animation/animate.min.css');
+    wp_enqueue_style('main-style', get_stylesheet_directory_uri() . '/css/main.css', array('wow-style'));
+//	  wp_enqueue_script('vue_js-script', get_stylesheet_directory_uri() . '/js/vue_3.2.36.js', array('main-script','global-script'), false, true);
+	  wp_enqueue_script('wow-script', get_stylesheet_directory_uri() . '/wow-animation/wow.min.js', array(), false, true);
+	  wp_enqueue_script('main-script', get_stylesheet_directory_uri() . '/js/main.js', array('wow-script'), false, true);
     wp_enqueue_script('global-script', get_stylesheet_directory_uri() . '/js/script.js', array(), false, true);
+
 
 	  wp_localize_script('global-script','globalData', array(
 		  'nonce' => wp_create_nonce('wp_rest'),

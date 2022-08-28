@@ -7,6 +7,16 @@
 				<div class="about-company__inner">
 					<div class="about-company__main">
 						<img class="about-company__img" src="<?php echo get_stylesheet_directory_uri(); ?>/img/general/about/3.png" alt="<?=get_bloginfo('name');?>">
+						<ul class="bubbles" style="display: none">
+							<li><div class="inner"></div></li>
+							<li><div class="inner"></div></li>
+							<li><div class="inner"></div></li>
+							<li><div class="inner"></div></li>
+							<li><div class="inner"></div></li>
+							<li><div class="inner"></div></li>
+							<li><div class="inner"></div></li>
+							<li><div class="inner"></div></li>
+						</ul>
 					</div>
 					<div class="about-company__aside">
 						<a class="about-company__link" href="<?=home_url();?>/irrigation">< Irrigation Filters</a>

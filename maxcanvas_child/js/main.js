@@ -12448,3 +12448,6 @@
         new swiper_esm_bundle(jquery_default()(".js-speaker-swiper"), { loop: !0, wrapperClass: "js-swiper-wrapper", slideClass: "js-swiper-slide", slidesPerView: "1", spaceBetween: 40, navigation: { nextEl: jquery_default()(".js-speaker-next"),prevEl: jquery_default()(".js-speaker-prev") } });
     },
 ]);
+
+new WOW().init();
+
