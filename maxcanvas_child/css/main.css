@@ -328,6 +328,7 @@ body {
   font-weight: 400;
   color: #222222;
 }
+#breakpoint_check{ width:100%; } /*100%|1400px|1199px|991px|767px|575px*/
 
 a {
   -webkit-transition: 0.5s;
@@ -4795,7 +4796,15 @@ body.single-filters .__filter_documentation_tab > div > input{ padding-left:10px
   }
 }
 
-@media (min-width: 768px) {
+@media (max-width: 767px){
+  #breakpoint_check{ width:767px; } /*100%|1400px|1199px|991px|767px|575px*/
+  .single-industrial .about-company__main ul.bubbles{ display: none; }
+  .single-industrial .about-company__main img{ visibility: visible; }
+  .single-irrigations .about-company__main ul.bubbles{ display: none; }
+  .single-irrigations .about-company__main img{ visibility: visible; }
+}
+
+  @media (min-width: 768px) {
   .internal-resource-center .gallery__col:nth-child(2) .gallery__img:nth-child(1) {
     margin-top: 31%;
   }
@@ -4812,48 +4821,12 @@ body.single-filters .__filter_documentation_tab > div > input{ padding-left:10px
 }
 
 
+/*"Bubbles effects" for Single Page "Irrigation" CPT & Single Page "Industrial" CPT */
 .single-industrial .about-company__main {
   -webkit-animation: pulse 10s infinite;
   animation: pulse 10s infinite;
   z-index: 1;
 }
-
-@-webkit-keyframes pulse {
-  /*0% {*/
-    /*background: #f44336;*/
-  /*}*/
-  /*25% {*/
-    /*background: #e91e63;*/
-  /*}*/
-  /*50% {*/
-    /*background: #9c2780;*/
-  /*}*/
-  /*75% {*/
-    /*background: #673ab7;*/
-  /*}*/
-  /*100% {*/
-    /*background: #f44336;*/
-  /*}*/
-}
-
-@keyframes pulse {
-  /*0% {*/
-    /*background: #f44336;*/
-  /*}*/
-  /*25% {*/
-    /*background: #e91e63;*/
-  /*}*/
-  /*50% {*/
-    /*background: #9c2780;*/
-  /*}*/
-  /*75% {*/
-    /*background: #673ab7;*/
-  /*}*/
-  /*100% {*/
-    /*background: #f44336;*/
-  /*}*/
-}
-
 .bubbles {
   position: absolute;
   /*top: 0;*/
@@ -4887,58 +4860,55 @@ body.single-filters .__filter_documentation_tab > div > input{ padding-left:10px
 .bubbles li:nth-child(1) {
   width:40px; height:40px; border-radius:50%;
   /*left: 20%;*/
-
 }
-
 .bubbles li:nth-child(2) {
   width:60px; height:60px; border-radius:50%;
   left: 40%;
   animation-delay: 2s;
   animation-duration: 16s;
 }
-
 .bubbles li:nth-child(3) {
   width:30px; height:30px; border-radius:50%;
   left: 45%;
   animation-delay: 4s;
   animation-duration: 13s;
 }
-
 .bubbles li:nth-child(4) {
   width:80px; height:80px; border-radius:50%;
   left: 5%;
   animation-delay: 1s;
   animation-duration: 19s;
 }
-
 .bubbles li:nth-child(5) {
   width:50px; height:50px; border-radius:50%;
   left: 10%;
   animation-delay: 5s;
   animation-duration: 12s;
 }
-
 .bubbles li:nth-child(6) {
   width:25px; height:25px; border-radius:50%;
   left: 30%;
   animation-delay: 3s;
   animation-duration: 11s;
 }
-
 .bubbles li:nth-child(7) {
   width:55px; height:55px; border-radius:50%;
   left: 28%;
   animation-delay: 2.5s;
   animation-duration: 11s;
 }
-
 .bubbles li:nth-child(8) {
   width:75px; height:75px; border-radius:50%;
   left: 22%;
   animation-delay: 3.5s;
   animation-duration: 11s;
 }
-
+.bubbles li:nth-child(9) {
+  width:20px; height:20px; border-radius:50%;
+  left: 15%;
+  animation-delay: 4.5s;
+  animation-duration: 11s;
+}
 @keyframes circle {
   0% {
     -webkit-transform: translateY(0);
@@ -4949,3 +4919,4 @@ body.single-filters .__filter_documentation_tab > div > input{ padding-left:10px
     transform: translateY(-1080px) rotate(800deg);
   }
 }
+/*__/"Bubbles effects" for Single Page "Irrigation" CPT & Single Page "Industrial" CPT */

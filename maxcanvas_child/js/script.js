@@ -1,3 +1,15 @@
+const cssElem = window.getComputedStyle( document.getElementById("breakpoint_check"), null );
+let breakpointCheck = cssElem.getPropertyValue('width'); console.log(breakpointCheck);
+
+if( breakpointCheck === '767px' ){
+	if( document.querySelectorAll('.wow--animate') ){
+		document.querySelectorAll('.wow--animate').forEach(
+			(item) => {
+				item.classList.remove('wow'); item.style.visibility = 'visible';
+			}
+		);
+	}
+}
 document.addEventListener( 'DOMContentLoaded', function () {
 
     function eachElem(el) {

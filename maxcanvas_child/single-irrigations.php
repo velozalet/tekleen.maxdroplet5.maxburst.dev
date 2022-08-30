@@ -6,8 +6,9 @@
 			<div class="about-company__container container is-large">
 				<div class="about-company__inner">
 					<div class="about-company__main">
-						<img class="about-company__img" src="<?php echo get_stylesheet_directory_uri(); ?>/img/general/about/3.png" alt="<?=get_bloginfo('name');?>">
-						<ul class="bubbles" style="display: none">
+						<img class="about-company__img visibility-hidden" src="<?php echo get_stylesheet_directory_uri(); ?>/img/general/about/3.png" alt="<?=get_bloginfo('name');?>">
+						<ul class="bubbles">
+							<li><div class="inner"></div></li>
 							<li><div class="inner"></div></li>
 							<li><div class="inner"></div></li>
 							<li><div class="inner"></div></li>

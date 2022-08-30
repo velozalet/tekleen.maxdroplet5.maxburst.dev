@@ -16,6 +16,7 @@
 </head>
 
     <body <?php body_class(); ?> id="body">
+        <mark id="breakpoint_check" style="display:none!important;"></mark>
         <!-- banner-->
         <?php if( get_field('toggle_display', 'options')[0] ):?>
         <div class="page__banner">
