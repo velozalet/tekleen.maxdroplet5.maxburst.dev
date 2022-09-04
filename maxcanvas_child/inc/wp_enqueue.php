@@ -7,6 +7,7 @@ if ( ! function_exists( 'maxcanvas_child_scripts_styles' ) ):
   function maxcanvas_child_scripts_styles() {
 
     // Core styles
+	  wp_enqueue_style( 'font-awesome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' );
     //wp_enqueue_style('style-guide', get_stylesheet_directory_uri() . '/css/styleguide.css');
     //wp_enqueue_style('global', get_stylesheet_directory_uri() . '/css/globals.css');
 	  wp_enqueue_style('wow-style', get_stylesheet_directory_uri() . '/wow-animation/animate.min.css');

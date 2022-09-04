@@ -1,7 +1,6 @@
 <!--__filter_models_tab-->
 <?php $filter_models_table_info = get_field('filter_models_table_info', get_the_ID());?>
 <?php if($filter_models_table_info):?>
-
 <div class="about-table__tab __filter_models_tab is-active" data-view="filter_models">
 	<div id="sorting__select_metric_filter_models" class="sorting__select">
 		<select class="js-select" data-placeholder="metric">
@@ -9,16 +8,16 @@
 			<option value="imperial">imperial</option>
 		</select>
 	</div>
-	<table class="about-table__table single-filter--filtermodels">
+	<table class="about-table__table single-filter--filtermodels sortable">
 		<thead>
 		<tr style="background-color:#A2B900;">
-			<th>Filter Model</th>
-			<th>Flange Size <br> <span>(mm)</span></th>
-			<th>Screen Area <br> <span>(m²)</span></th>
-			<th>Max Flow <br> <span>(m³/h)</span></th>
-			<th>Empty Weight <br> <span>(kgs)</span></th>
-			<th>Cut Sheet</th>
-			<th>Installation Layout</th>
+			<th style="cursor:pointer;">Filter Model <br> <i class="fa fa-sort" style="font-size:16px"></i></th>
+			<th style="cursor:pointer;">Flange Size <br> <span>(mm)</span> <i class="fa fa-sort" style="font-size:16px"></i></th>
+			<th style="cursor:pointer;">Screen Area <br> <span>(m²)</span> <i class="fa fa-sort" style="font-size:16px"></i></th>
+			<th style="cursor:pointer;">Max Flow <br> <span>(m³/h)</span> <i class="fa fa-sort" style="font-size:16px"></i></th>
+			<th style="cursor:pointer;">Empty Weight <br> <span>(kgs)</span> <i class="fa fa-sort" style="font-size:16px"></i></th>
+			<th class="no-sort" style="pointer-events:none;">Cut Sheet</th>
+			<th class="no-sort" style="pointer-events:none;">Installation Layout</th>
 		</tr>
 		</thead>
 		<tbody>

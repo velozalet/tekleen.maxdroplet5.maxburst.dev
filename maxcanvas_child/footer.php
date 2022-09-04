@@ -12,7 +12,7 @@ $footer2 = wp_get_nav_menu_object($locations['footer2']); //"Filters" Menu
 $footer3 = wp_get_nav_menu_object($locations['footer3']); //"IRRIGATION" Menu
 $footer4 = wp_get_nav_menu_object($locations['footer4']); //"INDUSTRIAL" Menu
 ?>
-		<!-- footer -->
+		<!-- footer-->
         <div class="page__footer">
             <footer class="footer">
                 <div class="footer__container container is-large">

@@ -110,9 +110,11 @@
 			<div class="about-table__container container is-large">
 				<div class="about-table__header">
 					<ul class="about-table__list filters-tabs-list">
-						<li class="about-table__item is-active" data-view="filter_models">Filter models</li>
-						<li class="about-table__item" data-view="documentation">Documentation</li>
-						<li class="about-table__item" data-view="spare_parts">Spare Parts</li>
+						<?php ?>
+
+						<li class="about-table__item <?=( get_field('filter_models_table_info', get_the_ID()) ? '' : 'visibility-hidden' );?> is-active" data-view="filter_models">Filter models</li>
+						<li class="about-table__item <?=( get_field('documentation_info', get_the_ID()) ? '' : 'visibility-hidden' );?>" data-view="documentation">Documentation</li>
+						<li class="about-table__item <?=( get_field('image', get_the_ID()) || get_field('description', get_the_ID()) ? '' : 'visibility-hidden' );?>" data-view="spare_parts">Spare Parts</li>
 						<li class="about-table__item" data-view="troubleshooting" style="display:none">Troubleshooting</li>
 					</ul>
 				</div>
@@ -136,7 +138,7 @@
 		</div>
 	</section>
 	<!-- end section-->
-
+	<script src="https://tofsjonas.github.io/sortable/sortable.js"></script> <!--sortable table script-->
 
 	<?php get_template_part('templates/content/flexible-content');?>
 </div>

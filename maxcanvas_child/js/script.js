@@ -1,5 +1,5 @@
 const cssElem = window.getComputedStyle( document.getElementById("breakpoint_check"), null );
-let breakpointCheck = cssElem.getPropertyValue('width'); console.log(breakpointCheck);
+let breakpointCheck = cssElem.getPropertyValue('width');
 
 if( breakpointCheck === '767px' ){
 	if( document.querySelectorAll('.wow--animate') ){
@@ -10,13 +10,13 @@ if( breakpointCheck === '767px' ){
 		);
 	}
 }
-document.addEventListener( 'DOMContentLoaded', function () {
 
+document.addEventListener( 'DOMContentLoaded', function () {
+/*
     function eachElem(el) {
         var allElems = document.querySelectorAll(el);
         return allElemsArr = Array.prototype.slice.call(allElems);
     }
-
     function moveMenuItems(submenu, menuSubList, start, end) {
         for(i = end; i >= start; i--) {
             if (submenu.querySelector('li:nth-child(' + start + ')')) {
@@ -25,7 +25,6 @@ document.addEventListener( 'DOMContentLoaded', function () {
             }
         }
     }
-
     function addMenuCol(submenu, start, end){
         var menuCol = document.createElement('div');
         menuCol.classList.add('menu__col');
@@ -38,12 +37,40 @@ document.addEventListener( 'DOMContentLoaded', function () {
         menuCol.append(menuSubList);
         document.querySelector('.menu__grid').append(menuCol);
     }
-
     eachElem('.menu__sub-list').forEach(function(submenu){
-        addMenuCol(submenu, 6, 10);
-        addMenuCol(submenu, 11, 15);
-        addMenuCol(submenu, 16, 20);
+        addMenuCol(submenu, 5, 10);
+        // addMenuCol(submenu, 11, 20);
+        // addMenuCol(submenu, 21, 30);
     });
+*/
+
+	/*New splitting menu items into columns*/
+	if( document.querySelector('header.header') ){
+		const menuMain = document.getElementById('menu-main-menu');
+		if(menuMain){
+			const __industrial = menuMain.querySelector('#menu-item-45'),
+				  __irrigation = menuMain.querySelector('#menu-item-355'),
+				  __filters = menuMain.querySelector('#menu-item-57');
+			//____________________________________________________________
+
+			const insertHTML_beforeEnd = (element) => {
+				element.insertAdjacentHTML('beforeEnd', `
+					<div class="menu__col">
+						<ul class="menu__sub-list"></ul>
+					</div>
+				`);
+			}
+
+			for( let i=0; i<3; i++ ){
+				insertHTML_beforeEnd( __industrial.querySelector('.menu__dropdown > .menu__grid') );
+				insertHTML_beforeEnd( __irrigation.querySelector('.menu__dropdown > .menu__grid') );
+				insertHTML_beforeEnd( __filters.querySelector('.menu__dropdown > .menu__grid') );
+			}
+		}
+
+
+	}
+	/*__/New splitting menu items into columns*/
     //__________________________________________________________________________________________________________________
 
 	/*__________________________________________Announcements Page*/
@@ -189,35 +216,38 @@ document.addEventListener( 'DOMContentLoaded', function () {
 
 	/*__________________________________________/"Single Filter" Page*/
 	if( document.querySelector('body.single-filters') ){
-		const singleFiltersPage = document.querySelector('body.single-filters');
-		const tabsListCollection = singleFiltersPage.querySelectorAll('.about-table__list.filters-tabs-list > li');
-		const viewListCollection = singleFiltersPage.querySelectorAll('.filters-view-list .about-table__tab');
+		var singleFiltersPage = document.querySelector('body.single-filters');
+		var tabsListCollection = singleFiltersPage.querySelectorAll('.about-table__list.filters-tabs-list > li');
+		var viewListCollection = singleFiltersPage.querySelectorAll('.filters-view-list .about-table__tab'); console.log(viewListCollection.length);
 
-		const sortingSelectMetricFilterModels = document.getElementById('sorting__select_metric_filter_models');
-		const tableFilterModels = singleFiltersPage.querySelector('.__filter_models_tab > table');
-		const flangeSizeTableHeader = tableFilterModels.querySelector('thead th:nth-of-type(2) span');
-		const screenAreaTableHeader = tableFilterModels.querySelector('thead th:nth-of-type(3) span');
-		const maxFlowTableHeader = tableFilterModels.querySelector('thead th:nth-of-type(4) span');
-		const emptyWeightTableHeader = tableFilterModels.querySelector('thead th:nth-of-type(5) span');
+		var sortingSelectMetricFilterModels = document.getElementById('sorting__select_metric_filter_models');
+		var sortingSelectDocumenttypeFilterModels = document.getElementById('sorting__select_documenttype_filter_models');
+		var inputSearchByDocumentTitle = singleFiltersPage.querySelector('.__filter_documentation_tab input[type="text"]');
 
-		const tableLength = tableFilterModels.querySelectorAll('tbody > tr ').length;
-		const flangeSizeValueCollection__m = tableFilterModels.querySelectorAll('tbody > tr td:nth-of-type(2) span:first-of-type'),
-			  flangeSizeValueCollection__i = tableFilterModels.querySelectorAll('tbody > tr td:nth-of-type(2) span:last-of-type');
-		const screenAreaValueCollection__m = tableFilterModels.querySelectorAll('tbody > tr td:nth-of-type(3) span:first-of-type'),
-			  screenAreaValueCollection__i = tableFilterModels.querySelectorAll('tbody > tr td:nth-of-type(3) span:last-of-type');
-		const maxFlowValueCollection__m = tableFilterModels.querySelectorAll('tbody > tr td:nth-of-type(4) span:first-of-type'),
-		 	  maxFlowValueCollection__i = tableFilterModels.querySelectorAll('tbody > tr td:nth-of-type(4) span:last-of-type');
-		const emptyWeightValueCollection__m = tableFilterModels.querySelectorAll('tbody > tr td:nth-of-type(5) span:first-of-type'),
-		      emptyWeightValueCollection__i = tableFilterModels.querySelectorAll('tbody > tr td:nth-of-type(5) span:last-of-type');
+		var tableFilterModels = singleFiltersPage.querySelector('.__filter_models_tab > table');
+		if( tableFilterModels ) {
+			var flangeSizeTableHeader = tableFilterModels.querySelector('thead th:nth-of-type(2) span');
+			var screenAreaTableHeader = tableFilterModels.querySelector('thead th:nth-of-type(3) span');
+			var maxFlowTableHeader = tableFilterModels.querySelector('thead th:nth-of-type(4) span');
+			var emptyWeightTableHeader = tableFilterModels.querySelector('thead th:nth-of-type(5) span');
 
-		const inputSearchByDocumentTitle = singleFiltersPage.querySelector('.__filter_documentation_tab input[type="text"]');
-		const tableDocumentation = singleFiltersPage.querySelector('.__filter_documentation_tab  > table');
-		const tableDocumentationLength = tableDocumentation.querySelectorAll('tbody > tr ').length;
-		const documentTitlesCollection = tableDocumentation.querySelectorAll('tbody > tr td:nth-of-type(2)');
-		const documentTypeCollection = tableDocumentation.querySelectorAll('tbody > tr td:nth-of-type(3)');
+			var tableLength = tableFilterModels.querySelectorAll('tbody > tr ').length;
+			var flangeSizeValueCollection__m = tableFilterModels.querySelectorAll('tbody > tr td:nth-of-type(2) span:first-of-type'),
+				flangeSizeValueCollection__i = tableFilterModels.querySelectorAll('tbody > tr td:nth-of-type(2) span:last-of-type');
+			var screenAreaValueCollection__m = tableFilterModels.querySelectorAll('tbody > tr td:nth-of-type(3) span:first-of-type'),
+				screenAreaValueCollection__i = tableFilterModels.querySelectorAll('tbody > tr td:nth-of-type(3) span:last-of-type');
+			var maxFlowValueCollection__m = tableFilterModels.querySelectorAll('tbody > tr td:nth-of-type(4) span:first-of-type'),
+				maxFlowValueCollection__i = tableFilterModels.querySelectorAll('tbody > tr td:nth-of-type(4) span:last-of-type');
+			var emptyWeightValueCollection__m = tableFilterModels.querySelectorAll('tbody > tr td:nth-of-type(5) span:first-of-type'),
+				emptyWeightValueCollection__i = tableFilterModels.querySelectorAll('tbody > tr td:nth-of-type(5) span:last-of-type');
+		}
 
-		const sortingSelectDocumenttypeFilterModels = document.getElementById('sorting__select_documenttype_filter_models');
-
+		var tableDocumentation = singleFiltersPage.querySelector('.__filter_documentation_tab  > table');
+		if( tableDocumentation ){
+			var tableDocumentationLength = tableDocumentation.querySelectorAll('tbody > tr ').length;
+			var documentTitlesCollection = tableDocumentation.querySelectorAll('tbody > tr td:nth-of-type(2)');
+			var documentTypeCollection = tableDocumentation.querySelectorAll('tbody > tr td:nth-of-type(3)');
+		}
 
 		const unitsMeasurement = {
 			metric: {
@@ -296,54 +326,55 @@ document.addEventListener( 'DOMContentLoaded', function () {
 
 
 		/** Click select metric/imperal for "Filter Models" Table */
-		for( let item of flangeSizeValueCollection__i ){ item.innerHTML = Math.round( (+item.textContent / 25.4).toFixed(2) ).toFixed(1); } //convert mm --> in
-		for( let item of screenAreaValueCollection__i ){ item.innerHTML = Math.round( (+item.textContent * 10.764).toFixed(2) ).toFixed(1); } //convert m² --> sqft
-		for( let item of maxFlowValueCollection__i ){ item.innerHTML = Math.round( (+item.textContent / 4.4029).toFixed(2) ).toFixed(1); } //convert m³/h --> gpm
-		for( let item of emptyWeightValueCollection__i ){ item.innerHTML = Math.round( (+item.textContent * 2.205).toFixed(2) ).toFixed(1); } //convert kgs --> lbs
+		if(tableFilterModels){
+			for( let item of flangeSizeValueCollection__i ){ item.innerHTML = Math.round( (+item.textContent / 25.4).toFixed(2) ).toFixed(1); } //convert mm --> in
+			for( let item of screenAreaValueCollection__i ){ item.innerHTML = Math.round( (+item.textContent * 10.764).toFixed(2) ).toFixed(1); } //convert m² --> sqft
+			for( let item of maxFlowValueCollection__i ){ item.innerHTML = Math.round( (+item.textContent / 4.4029).toFixed(2) ).toFixed(1); } //convert m³/h --> gpm
+			for( let item of emptyWeightValueCollection__i ){ item.innerHTML = Math.round( (+item.textContent * 2.205).toFixed(2) ).toFixed(1); } //convert kgs --> lbs
 
+			sortingSelectMetricFilterModels.onchange = function (event) { //console.log(event.currentTarget.value);
+				/*METRIC*/
+				if( event.currentTarget.value === 'metric' ){
+					flangeSizeTableHeader.innerHTML = unitsMeasurement.metric.mm;
+					screenAreaTableHeader.innerHTML = unitsMeasurement.metric.m2;
+					maxFlowTableHeader.innerHTML = unitsMeasurement.metric.m3h;
+					emptyWeightTableHeader.innerHTML = unitsMeasurement.metric.kgs;
 
-		sortingSelectMetricFilterModels.onchange = function (event) { //console.log(event.currentTarget.value);
-			/*METRIC*/
-			if( event.currentTarget.value === 'metric' ){
-				flangeSizeTableHeader.innerHTML = unitsMeasurement.metric.mm;
-				screenAreaTableHeader.innerHTML = unitsMeasurement.metric.m2;
-				maxFlowTableHeader.innerHTML = unitsMeasurement.metric.m3h;
-				emptyWeightTableHeader.innerHTML = unitsMeasurement.metric.kgs;
+					for( i=0; i < tableLength; ++i ){
+						flangeSizeValueCollection__i[i].classList.add('display-none');
+						screenAreaValueCollection__i[i].classList.add('display-none');
+						maxFlowValueCollection__i[i].classList.add('display-none');
+						emptyWeightValueCollection__i[i].classList.add('display-none');
 
-				for( i=0; i < tableLength; ++i ){
-					flangeSizeValueCollection__i[i].classList.add('display-none');
-					screenAreaValueCollection__i[i].classList.add('display-none');
-					maxFlowValueCollection__i[i].classList.add('display-none');
-					emptyWeightValueCollection__i[i].classList.add('display-none');
+						flangeSizeValueCollection__m[i].classList.remove('display-none');
+						screenAreaValueCollection__m[i].classList.remove('display-none');
+						maxFlowValueCollection__m[i].classList.remove('display-none');
+						emptyWeightValueCollection__m[i].classList.remove('display-none');
+					}
 
-					flangeSizeValueCollection__m[i].classList.remove('display-none');
-					screenAreaValueCollection__m[i].classList.remove('display-none');
-					maxFlowValueCollection__m[i].classList.remove('display-none');
-					emptyWeightValueCollection__m[i].classList.remove('display-none');
 				}
+				/*EMPERIAL*/
+				else{
+					flangeSizeTableHeader.innerHTML = unitsMeasurement.imperial.inn;
+					screenAreaTableHeader.innerHTML = unitsMeasurement.imperial.sqft;
+					maxFlowTableHeader.innerHTML = unitsMeasurement.imperial.gpm;
+					emptyWeightTableHeader.innerHTML = unitsMeasurement.imperial.lbs;
 
-			}
-			/*EMPERIAL*/
-			else{
-				flangeSizeTableHeader.innerHTML = unitsMeasurement.imperial.inn;
-				screenAreaTableHeader.innerHTML = unitsMeasurement.imperial.sqft;
-				maxFlowTableHeader.innerHTML = unitsMeasurement.imperial.gpm;
-				emptyWeightTableHeader.innerHTML = unitsMeasurement.imperial.lbs;
+					for( i=0; i < tableLength; ++i ){
+						flangeSizeValueCollection__m[i].classList.add('display-none');
+						screenAreaValueCollection__m[i].classList.add('display-none');
+						maxFlowValueCollection__m[i].classList.add('display-none');
+						emptyWeightValueCollection__m[i].classList.add('display-none');
 
-				for( i=0; i < tableLength; ++i ){
-					flangeSizeValueCollection__m[i].classList.add('display-none');
-					screenAreaValueCollection__m[i].classList.add('display-none');
-					maxFlowValueCollection__m[i].classList.add('display-none');
-					emptyWeightValueCollection__m[i].classList.add('display-none');
-
-					flangeSizeValueCollection__i[i].classList.remove('display-none');
-					screenAreaValueCollection__i[i].classList.remove('display-none');
-					maxFlowValueCollection__i[i].classList.remove('display-none');
-					emptyWeightValueCollection__i[i].classList.remove('display-none');
+						flangeSizeValueCollection__i[i].classList.remove('display-none');
+						screenAreaValueCollection__i[i].classList.remove('display-none');
+						maxFlowValueCollection__i[i].classList.remove('display-none');
+						emptyWeightValueCollection__i[i].classList.remove('display-none');
+					}
 				}
 			}
+			/**__/Click select metric/imperal for "Filter Models" Table */
 		}
-		/**__/Click select metric/imperal for "Filter Models" Table */
 
 
 		/** Searching by document title for "Filter Documentation" Table */
@@ -358,13 +389,15 @@ document.addEventListener( 'DOMContentLoaded', function () {
 				}
 			}
 		}
-		inputSearchByDocumentTitle.addEventListener( "keyup", titleSearch(documentTitlesCollection) );
+		if(tableDocumentation){
+			if(inputSearchByDocumentTitle){ inputSearchByDocumentTitle.addEventListener( "keyup", titleSearch(documentTitlesCollection) ); }
+		}
 		/**__/Searching by document title for "Filter Documentation" Table */
 
-
 		/** Select from dropdown for filtering by Document type*/
-		sortingSelectDocumenttypeFilterModels.onchange = function(event){
-			let currentValue = event.currentTarget.value.toUpperCase();
+		if(tableDocumentation){
+			sortingSelectDocumenttypeFilterModels.onchange = function(event){
+				let currentValue = event.currentTarget.value.toUpperCase();
 
 				for( let item of documentTypeCollection ){
 					if( currentValue !== 'ALL DOCUMENTS' ){
@@ -377,9 +410,9 @@ document.addEventListener( 'DOMContentLoaded', function () {
 						item.parentElement.classList.remove('display-none');
 					}
 				}
+			}
 		}
 		/** Select from dropdown for filtering by Document type */
-
 	}
 	/*__________________________________________/Single Filter" Page*/
 
