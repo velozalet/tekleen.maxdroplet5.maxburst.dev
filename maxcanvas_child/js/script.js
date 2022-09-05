@@ -51,6 +51,14 @@ document.addEventListener( 'DOMContentLoaded', function () {
 			const __industrial = menuMain.querySelector('#menu-item-45'),
 				  __irrigation = menuMain.querySelector('#menu-item-355'),
 				  __filters = menuMain.querySelector('#menu-item-57');
+
+			let __industrialMenuItemsCollection = __industrial.querySelectorAll('.menu__dropdown .menu__grid .menu__sub-list > li'); //11
+			let __irrigationMenuItemsCollection = __irrigation.querySelectorAll('.menu__dropdown .menu__grid .menu__sub-list > li'); //3
+			let __filtersMenuItemsCollection = __filters.querySelectorAll('.menu__dropdown .menu__grid .menu__sub-list > li'); //6
+
+			let numberOfMenuItemsInOneColumn = 5, //number of menu items in one column
+				howManyColumns = 1; //how many columns will
+
 			//____________________________________________________________
 
 			const insertHTML_beforeEnd = (element) => {
@@ -60,13 +68,131 @@ document.addEventListener( 'DOMContentLoaded', function () {
 					</div>
 				`);
 			}
-
 			for( let i=0; i<3; i++ ){
 				insertHTML_beforeEnd( __industrial.querySelector('.menu__dropdown > .menu__grid') );
 				insertHTML_beforeEnd( __irrigation.querySelector('.menu__dropdown > .menu__grid') );
 				insertHTML_beforeEnd( __filters.querySelector('.menu__dropdown > .menu__grid') );
 			}
-		}
+
+			//FOR "INDUSTRIAL"
+			if(__industrialMenuItemsCollection){
+				for( let item of  __industrialMenuItemsCollection){ item.remove(); }
+				__industrialMenuCol1 = []; __industrialMenuCol2 = []; __industrialMenuCol3 = []; __industrialMenuCol4 = [];
+				__industrialMenuItemsCollection.forEach(
+					(item, index, collection) => {
+						if( (index+1) > 0 && (index+1) < (numberOfMenuItemsInOneColumn +1) ){ __industrialMenuCol1.push(item); }
+						if( (index+1) > numberOfMenuItemsInOneColumn && (index+1) < (numberOfMenuItemsInOneColumn * 2) + 1 ){ __industrialMenuCol2.push(item); }
+						if( (index+1) > (numberOfMenuItemsInOneColumn * 2) && (index+1) < (numberOfMenuItemsInOneColumn * 3) + 2 ){ __industrialMenuCol3.push(item); }
+						if( (index+1) > (numberOfMenuItemsInOneColumn * 3) + 1 ){ __industrialMenuCol4.push(item); }
+					}
+				); //console.log(__industrialMenuCol1); console.log(__industrialMenuCol2); console.log(__industrialMenuCol3); console.log(__industrialMenuCol4);
+
+				if( __industrialMenuCol1.length ){
+					for( let itemMenu of __industrialMenuCol1 ){
+						__industrial.querySelector('.menu__dropdown > .menu__grid .menu__col:nth-of-type(1) .menu__sub-list').insertAdjacentElement('beforeEnd',itemMenu);
+					}
+				}
+				if( __industrialMenuCol2.length ){
+					for( let itemMenu of __industrialMenuCol2 ){
+						__industrial.querySelector('.menu__dropdown > .menu__grid .menu__col:nth-of-type(2) .menu__sub-list').insertAdjacentElement('beforeEnd',itemMenu);
+					}
+				}
+				if( __industrialMenuCol3.length ){
+					for( let itemMenu of __industrialMenuCol3 ){
+						__industrial.querySelector('.menu__dropdown > .menu__grid .menu__col:nth-of-type(3) .menu__sub-list').insertAdjacentElement('beforeEnd',itemMenu);
+					}
+				}
+				if( __industrialMenuCol4.length ){
+					for( let itemMenu of __industrialMenuCol4 ){
+						__industrial.querySelector('.menu__dropdown > .menu__grid .menu__col:nth-of-type(4) .menu__sub-list').insertAdjacentElement('beforeEnd',itemMenu);
+					}
+				}
+			}
+
+			//FOR "IRRIGATION"
+			if(__irrigationMenuItemsCollection){
+				for( let item of  __irrigationMenuItemsCollection){ item.remove(); }
+				__irrigationMenuCol1 = []; __irrigationMenuCol2 = []; __irrigationMenuCol3 = []; __irrigationMenuCol4 = [];
+			}
+			__irrigationMenuItemsCollection.forEach(
+				(item, index, collection) => {
+					if( (index+1) > 0 && (index+1) < (numberOfMenuItemsInOneColumn +1) ){ __irrigationMenuCol1.push(item); }
+					if( (index+1) > numberOfMenuItemsInOneColumn && (index+1) < (numberOfMenuItemsInOneColumn * 2) + 1 ){ __irrigationMenuCol2.push(item); }
+					if( (index+1) > (numberOfMenuItemsInOneColumn * 2) && (index+1) < (numberOfMenuItemsInOneColumn * 3) + 2 ){ __irrigationMenuCol3.push(item); }
+					if( (index+1) > (numberOfMenuItemsInOneColumn * 3) + 1 ){ __irrigationMenuCol4.push(item); }
+				}
+			); //console.log(__irrigationMenuCol1); console.log(__irrigationMenuCol2); console.log(__irrigationMenuCol3); console.log(__irrigationMenuCol4);
+
+			if( __irrigationMenuCol1.length ){
+				for( let itemMenu of __irrigationMenuCol1 ){
+					__irrigation.querySelector('.menu__dropdown > .menu__grid .menu__col:nth-of-type(1) .menu__sub-list').insertAdjacentElement('beforeEnd',itemMenu);
+				}
+			}
+			if( __irrigationMenuCol2.length ){
+				for( let itemMenu of __irrigationMenuCol2 ){
+					__irrigation.querySelector('.menu__dropdown > .menu__grid .menu__col:nth-of-type(2) .menu__sub-list').insertAdjacentElement('beforeEnd',itemMenu);
+				}
+			}
+			if( __irrigationMenuCol3.length ){
+				for( let itemMenu of __irrigationMenuCol3 ){
+					__irrigation.querySelector('.menu__dropdown > .menu__grid .menu__col:nth-of-type(3) .menu__sub-list').insertAdjacentElement('beforeEnd',itemMenu);
+				}
+			}
+			if( __irrigationMenuCol4.length ){
+				for( let itemMenu of __irrigationMenuCol4 ){
+					__irrigation.querySelector('.menu__dropdown > .menu__grid .menu__col:nth-of-type(4) .menu__sub-list').insertAdjacentElement('beforeEnd',itemMenu);
+				}
+			}
+
+			//FOR "FILTERS"
+			if(__filtersMenuItemsCollection){
+				for( let item of  __filtersMenuItemsCollection){ item.remove(); }
+				__filtersMenuCol1 = []; __filtersMenuCol2 = []; __filtersMenuCol3 = []; __filtersMenuCol4 = [];
+			}
+			__filtersMenuItemsCollection.forEach(
+				(item, index, collection) => {
+					if( (index+1) > 0 && (index+1) < (numberOfMenuItemsInOneColumn +1) ){ __filtersMenuCol1.push(item); }
+					if( (index+1) > numberOfMenuItemsInOneColumn && (index+1) < (numberOfMenuItemsInOneColumn * 2) + 1 ){ __filtersMenuCol2.push(item); }
+					if( (index+1) > (numberOfMenuItemsInOneColumn * 2) && (index+1) < (numberOfMenuItemsInOneColumn * 3) + 2 ){ __filtersMenuCol3.push(item); }
+					if( (index+1) > (numberOfMenuItemsInOneColumn * 3) + 1 ){ __filtersMenuCol4.push(item); }
+				}
+			); //console.log(__filtersMenuCol1); console.log(__filtersMenuCol2); console.log(__filtersMenuCol3); console.log(__filtersMenuCol4);
+
+			if( __filtersMenuCol1.length ){
+				for( let itemMenu of __filtersMenuCol1 ){
+					__filters.querySelector('.menu__dropdown > .menu__grid .menu__col:nth-of-type(1) .menu__sub-list').insertAdjacentElement('beforeEnd',itemMenu);
+				}
+			}
+			if( __filtersMenuCol2.length ){
+				for( let itemMenu of __filtersMenuCol2 ){
+					__filters.querySelector('.menu__dropdown > .menu__grid .menu__col:nth-of-type(2) .menu__sub-list').insertAdjacentElement('beforeEnd',itemMenu);
+				}
+			}
+			if( __filtersMenuCol3.length ){
+				for( let itemMenu of __filtersMenuCol3 ){
+					__filters.querySelector('.menu__dropdown > .menu__grid .menu__col:nth-of-type(3) .menu__sub-list').insertAdjacentElement('beforeEnd',itemMenu);
+				}
+			}
+			if( __filtersMenuCol4.length ){
+				for( let itemMenu of __filtersMenuCol4 ){
+					__filters.querySelector('.menu__dropdown > .menu__grid .menu__col:nth-of-type(4) .menu__sub-list').insertAdjacentElement('beforeEnd',itemMenu);
+				}
+			}
+
+
+			/*For Mobile Menu. Click on subItems Menu*/
+			let MENU = document.getElementById('menu-main-menu');
+			let iMenuCollection = MENU.querySelectorAll('.menu__dropdown .menu__col .menu__sub-list > li.menu-item'); //console.log(iMenuCollection);
+			iMenuCollection.forEach(
+				(item, index, collection) => {
+					item.addEventListener('click', (event) => { //event.currentTarget
+						location.href = event.currentTarget.querySelector('a.menu__link').getAttribute('href');
+					});
+				}
+			);
+			/*__/For Mobile Menu. Click on subItems Menu*/
+
+		} //__/if(menuMain)
 
 
 	}
@@ -383,8 +509,7 @@ document.addEventListener( 'DOMContentLoaded', function () {
 				let inputValue = event.currentTarget.value.toUpperCase();
 				for( i=0; i < collection.length; i++ ){
 					let summary = collection[i];
-
-					if( summary.innerHTML.toUpperCase().indexOf(inputValue) > -1 ){ collection[i].parentElement.classList.remove('display-none') }
+					if( summary.innerHTML.toUpperCase().replace('&AMP;','&').indexOf(inputValue) > -1 ){ collection[i].parentElement.classList.remove('display-none') }
 					else { collection[i].parentElement.classList.add('display-none') }
 				}
 			}
