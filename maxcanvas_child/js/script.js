@@ -44,6 +44,7 @@ document.addEventListener( 'DOMContentLoaded', function () {
     });
 */
 
+
 	/*New splitting menu items into columns*/
 	if( document.querySelector('header.header') ){
 		const menuMain = document.getElementById('menu-main-menu');
@@ -197,6 +198,22 @@ document.addEventListener( 'DOMContentLoaded', function () {
 
 	}
 	/*__/New splitting menu items into columns*/
+
+	/*Sticky header management*/
+	const pageHeader = document.querySelector('.page__header');
+	let topPosition = document.querySelector("body");
+	if( pageHeader ){
+		headerMobileBtn = pageHeader.querySelector('.header .header__inner .header__mobile-btn');
+		headerMobileBtn.addEventListener('click', (event) => {
+			if( event.currentTarget.classList.contains('is-active') ){
+				pageHeader.classList.remove('sticky-nav');
+				topPosition.scrollIntoView();
+			}else{
+				pageHeader.classList.add('sticky-nav');
+			}
+		})
+	}
+	/*__/Sticky header management*/
     //__________________________________________________________________________________________________________________
 
 	/*__________________________________________Announcements Page*/
@@ -344,7 +361,7 @@ document.addEventListener( 'DOMContentLoaded', function () {
 	if( document.querySelector('body.single-filters') ){
 		var singleFiltersPage = document.querySelector('body.single-filters');
 		var tabsListCollection = singleFiltersPage.querySelectorAll('.about-table__list.filters-tabs-list > li');
-		var viewListCollection = singleFiltersPage.querySelectorAll('.filters-view-list .about-table__tab'); console.log(viewListCollection.length);
+		var viewListCollection = singleFiltersPage.querySelectorAll('.filters-view-list .about-table__tab'); //console.log(viewListCollection.length);
 
 		var sortingSelectMetricFilterModels = document.getElementById('sorting__select_metric_filter_models');
 		var sortingSelectDocumenttypeFilterModels = document.getElementById('sorting__select_documenttype_filter_models');

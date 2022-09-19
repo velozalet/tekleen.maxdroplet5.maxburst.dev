@@ -31,7 +31,7 @@
         <?php endif;?>
         <!-- end banner-->
         <!-- header-->
-        <div class="page__header">
+        <div class="page__header sticky-nav">
             <header class="header">
                 <div class="header__container container is-large">
                     <div class="header__inner">

@@ -44,47 +44,84 @@
 						<h2 class="about-company__title"><?=get_the_title();?></h2>
 						<div class="about-company__text"><?=get_the_content();?></div>
 
+
+						<?php
+						$all_options_filters_collection = [];
+						if( get_field('line_sizes', get_the_ID()) ){ array_push($all_options_filters_collection, get_field('line_sizes', get_the_ID()) ); }
+						if( get_field('flow_rate', get_the_ID()) ){ array_push($all_options_filters_collection, get_field('flow_rate', get_the_ID()) ); }
+						if( get_field('screen_opening', get_the_ID()) ){ array_push($all_options_filters_collection, get_field('screen_opening', get_the_ID()) ); }
+						if( get_field('material', get_the_ID()) ){ array_push($all_options_filters_collection, get_field('material', get_the_ID()) ); }
+						if( get_field('pressure', get_the_ID()) ){ array_push($all_options_filters_collection, get_field('pressure', get_the_ID()) ); }
+						if( get_field('temperature_to', get_the_ID()) ){ array_push($all_options_filters_collection, get_field('temperature_to', get_the_ID()) ); }
+						if( get_field('flush_valve_size', get_the_ID()) ){ array_push($all_options_filters_collection, get_field('flush_valve_size', get_the_ID()) ); }
+						if( get_field('flush_flow_rate', get_the_ID()) ){ array_push($all_options_filters_collection, get_field('flush_flow_rate', get_the_ID()) ); }
+						if( get_field('flush_duration', get_the_ID()) ){ array_push($all_options_filters_collection, get_field('flush_duration', get_the_ID()) ); }
+						if( get_field('flushing_volume', get_the_ID()) ){ array_push($all_options_filters_collection, get_field('flushing_volume', get_the_ID()) ); }
+						$all_options_filters_collection_cnt = count($all_options_filters_collection);
+						?>
+						<?php if( $all_options_filters_collection_cnt > 0 ):?>
 						<div class="about-company__section">
 							<h2 class="about-company__section-title">Standard Features</h2>
 							<div class="props about-company__props">
 								<div class="props__grid">
 									<div class="props__col">
+										<?php if( get_field('line_sizes', get_the_ID()) ):?>
 										<div class="props__item">
 											<div class="props__text"><strong>Line Sizes:</strong> <?=get_field( 'line_sizes', get_the_ID() );?> </div>
 										</div>
+										<?php endif;?>
+										<?php if( get_field('flow_rate', get_the_ID()) ):?>
 										<div class="props__item">
 											<div class="props__text"><strong>Flow Rate:</strong> <?=get_field( 'flow_rate', get_the_ID() );?> </div>
 										</div>
+										<?php endif;?>
+										<?php if( get_field('screen_opening', get_the_ID()) ):?>
 										<div class="props__item">
 											<div class="props__text"><strong>Screen Opening:</strong> <?=get_field( 'screen_opening', get_the_ID() );?> </div>
 										</div>
+										<?php endif;?>
+										<?php if( get_field('material', get_the_ID()) ):?>
 										<div class="props__item">
 											<div class="props__text"><strong>Material:</strong> <?=get_field( 'material', get_the_ID() );?> </div>
 										</div>
+										<?php endif;?>
+										<?php if( get_field('pressure', get_the_ID()) ):?>
 										<div class="props__item">
 											<div class="props__text"><strong>Pressure:</strong> <?=get_field( 'pressure', get_the_ID() );?> </div>
 										</div>
+										<?php endif;?>
+										<?php if( get_field('temperature_to', get_the_ID()) ):?>
 										<div class="props__item">
-											<div class="props__text"><strong>Temperature to:</strong> <?=get_field( 'temperature_to', get_the_ID() );?> </div>
+											<div class="props__text"><strong>Temperature to:</strong> <?=get_field('temperature_to', get_the_ID());?> </div>
 										</div>
+										<?php endif;?>
 									</div>
 									<div class="props__col">
+										<?php if( get_field('flush_valve_size', get_the_ID()) ):?>
 										<div class="props__item">
 											<div class="props__text"><strong>Flush Valve Size: </strong> <?=get_field( 'flush_valve_size', get_the_ID() );?> </div>
 										</div>
+										<?php endif;?>
+										<?php if( get_field('flush_flow_rate', get_the_ID()) ):?>
 										<div class="props__item">
 											<div class="props__text"><strong>Flush Flow Rate: </strong> <?=get_field( 'flush_flow_rate', get_the_ID() );?> </div>
 										</div>
+										<?php endif;?>
+										<?php if( get_field('flush_duration', get_the_ID()) ):?>
 										<div class="props__item">
 											<div class="props__text"><strong>Flush Duration: </strong> <?=get_field( 'flush_duration', get_the_ID() );?> </div>
 										</div>
+										<?php endif;?>
+										<?php if( get_field('flushing_volume', get_the_ID()) ):?>
 										<div class="props__item">
 											<div class="props__text"><strong>Flushing Volume: </strong> <?=get_field( 'flushing_volume', get_the_ID() );?> </div>
 										</div>
+										<?php endif;?>
 									</div>
 								</div>
 							</div>
 						</div>
+						<?php endif;?>
 
 						<div class="about-company__section">
 							<?=get_field( 'contact_us_block_description', 14 );?>

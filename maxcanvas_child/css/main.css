@@ -2468,6 +2468,8 @@ h4 {
   margin-top: 32px;
 }
 
+.sticky-nav{ position:-webkit-sticky; position:sticky; top:0;  z-index:1000; }
+
 .header {
   background: #FFFFFF;
   -webkit-box-shadow: 0px 1px 0px #D9D9D9;

@@ -25,6 +25,9 @@ get_header();?>
 					<?php
 					$args = array(
 						'post_type' => 'filters',
+						'numberposts' => -1,
+						'orderby'     => 'date',
+						'order'       => 'ASC', //'ASC'
 						'tax_query' => array(
 							array(
 								'taxonomy' => 'filters-taxonomy',
@@ -33,7 +36,7 @@ get_header();?>
 							)
 						)
 					);
-					$posts_filters = get_posts( $args );
+					$posts_filters = get_posts( $args ); //dd($posts_filters);
 					?>
                     <div class="main__title">Filters</div>
                     <div class="main__grid">
@@ -64,6 +67,9 @@ get_header();?>
 					<?php
 					$args = array(
 						'post_type' => 'filters',
+						'numberposts' => -1,
+						'orderby'     => 'date',
+						'order'       => 'ASC', //'ASC'
 						'tax_query' => array(
 							array(
 								'taxonomy' => 'filters-taxonomy',
@@ -72,7 +78,7 @@ get_header();?>
 							)
 						)
 					);
-					$posts_accessories = get_posts( $args );
+					$posts_accessories = get_posts( $args ); //dd($posts_accessories);
 					?>
                     <div class="main__title">Accessories</div>
                     <div class="advants main__advants-widget">

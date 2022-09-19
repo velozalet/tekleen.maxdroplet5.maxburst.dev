@@ -1,5 +1,5 @@
 <!--__filter_models_tab-->
-<?php $filter_models_table_info = get_field('filter_models_table_info', get_the_ID());?>
+<?php $filter_models_table_info = get_field('filter_models_table_info', get_the_ID()); //dd($filter_models_table_info);?>
 <?php if($filter_models_table_info):?>
 <div class="about-table__tab __filter_models_tab is-active" data-view="filter_models">
 	<div id="sorting__select_metric_filter_models" class="sorting__select">
@@ -26,9 +26,9 @@
 				<?php foreach($arr as $info=>$value):?>
 					<?php if( is_array($value) ):?>
 						<td>
-							<a class="doc-file-link" href="<?=$value["doc_1"]["url"];?>" target="_blank"><?=$value["doc_1"]["title"];?></a>
+							<a class="doc-file-link" href="<?=$value["doc_1"]["url"];?>" target="_blank"><img src="<?=$value["doc_1"]["icon"];?>" alt="" style="width:14px;height:auto;margin-right:3px;"><?=strtoupper($value["doc_1"]["subtype"]);?></a>
 							<?=( !$value["doc_1"]["url"] || !$value["doc_2"]["url"] ) ? '' : '|'?>
-							<a class="doc-file-link" href="<?=$value["doc_2"]["url"];?>" target="_blank"><?=$value["doc_2"]["title"];?></a>
+							<a class="doc-file-link" href="<?=$value["doc_2"]["url"];?>" target="_blank"><img src="<?=$value["doc_2"]["icon"];?>" alt="" style="width:14px; height:auto;margin-right:3px;"><?=( $value["doc_2"]["subtype"] == 'octet-stream' ) ? 'DWG': '';?></a>
 						</td>
 					<?php else:?>
 						<td> <span><?=$value;?></span> <span class="display-none"><?=$value;?></span> </td>
