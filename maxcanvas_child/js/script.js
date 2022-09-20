@@ -345,14 +345,16 @@ document.addEventListener( 'DOMContentLoaded', function () {
 			return function(event) {
 				let inputValue = event.currentTarget.value.toUpperCase(); //console.log(inputValue);
 				for( i=0; i < collection.length; i++ ){
-					let summary = collection[i].querySelectorAll('.summary')[0]; //console.log(summary.innerHTML);
+					//let summary = collection[i].querySelectorAll('.summary')[0]; //console.log(summary.innerHTML);
+					let title = collection[i].querySelectorAll('.filter-card__title')[0]; //console.log(summary.innerHTML);
 
-					if( summary.innerHTML.toUpperCase().indexOf(inputValue) > -1 ){ collection[i].style.display = "block"; }
+					//if( summary.innerHTML.toUpperCase().indexOf(inputValue) > -1 ){ collection[i].style.display = "block"; }
+					if( title.innerHTML.toUpperCase().indexOf(inputValue) > -1 ){ collection[i].style.display = "block"; }
 					else { collection[i].style.display = "none"; }
 				}
 			}
 		}
-		filterInputCaseStudies.addEventListener( "keyup", filterPosts(postsCaseStudiesCollection, '.summary') );
+		filterInputCaseStudies.addEventListener( "keyup", filterPosts(postsCaseStudiesCollection, '.filter-card__title') );
 	}
 	/*__________________________________________/resource-center-2 Page - Archive "Case Studies"*/
 

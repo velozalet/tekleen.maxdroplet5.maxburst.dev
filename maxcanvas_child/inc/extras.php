@@ -62,7 +62,7 @@ class Custom_Submenu_Container extends Walker_Nav_Menu
 /** Var dump description
  * @param $data
  */
-function dd($data){
+function max_dd($data){
 	echo '<pre>', var_dump($data), '</pre>';
 }
 

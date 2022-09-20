@@ -40,7 +40,7 @@
 					</div>
 					<?php endif;?>
 					<div class="about-company__aside" style="<?=($page_images) ? '' : 'width:100%';?>">
-						<a class="about-company__link" href="#"> < filters & Accessories</a>
+						<a class="about-company__link" href="filters/"> < filters & Accessories</a>
 						<h2 class="about-company__title"><?=get_the_title();?></h2>
 						<div class="about-company__text"><?=get_the_content();?></div>
 

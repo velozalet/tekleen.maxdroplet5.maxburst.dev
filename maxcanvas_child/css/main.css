@@ -638,6 +638,7 @@ h4 {
   margin: 0;
   padding: 0;
   list-style-type: none;
+  overflow: auto;
 }
 .filter__list > .filter__item{ padding-right:9px; }
 .filter__list.is-accent .filter__item.is-active::before {
@@ -662,7 +663,8 @@ h4 {
   padding: 0 10px;
   height: 53px;
   border: 1px solid #D2D2D2;
-  font-size: 12px;
+  font-size: 11px;
+  line-height: 1;
 }
 .filter__list.is-accent .filter__link:hover {
   color: #FFFFFF;
@@ -1076,8 +1078,7 @@ h4 {
   bottom: 0;
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  /*-o-object-fit: cover; object-fit: cover;*/
 }
 .gallery-card__body {
   display: -webkit-box;
@@ -2206,6 +2207,7 @@ h4 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  min-height: 477px;
 }
 .filter-card__photo {
   position: relative;
@@ -2284,8 +2286,9 @@ h4 {
 .follow__col:first-child {
   padding-right: 30px;
   padding-left: 0;
-  border-right: 1px solid #D9D9D9;
+  /**/
 }
+.follow__container .follow__col.follow__col-border:first-child{ border-right:1px solid #D9D9D9; }
 .follow__card {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2329,6 +2332,7 @@ h4 {
           justify-content: center;
   margin-top: 35px;
 }
+.follow__container .follow__grid{ justify-content:center; }
 
 .footer {
   padding: 65px 0;
@@ -2467,6 +2471,9 @@ h4 {
           justify-content: center;
   margin-top: 32px;
 }
+.good-company__container{ background:#F7F7F7; }
+.good-company__container .good__container .good__grid .good__card{ background-size:cover; background-position:50% 50%; background-repeat:no-repeat; min-height:135px; }
+
 
 .sticky-nav{ position:-webkit-sticky; position:sticky; top:0;  z-index:1000; }
 
@@ -2773,6 +2780,7 @@ h4 {
   bottom: 0;
   z-index: -1;
   max-height: 100%;
+  margin-left: 30px;
 }
 .promo__img.is-accent {
   left: 60%;
@@ -4189,6 +4197,7 @@ h4 {
     position: static;
     margin: 0 auto;
     max-width: 100%;
+    margin-top: 15px;
   }
   .advants__col {
     width: 50%;
@@ -4206,6 +4215,9 @@ h4 {
     margin-bottom: 25px;
     border-right: 0;
     border-bottom: 1px solid #D9D9D9;
+  }
+  .follow__container .follow__col.follow__col-border:first-child {
+    border-right: 0;
   }
   .follow__col:last-child {
     padding-left: 0;
@@ -4686,6 +4698,10 @@ h4 {
     margin-bottom: 20px;
     padding-bottom: 20px;
   }
+
+  .filter-card {
+    min-height:auto;
+  }
 }
 
 a.doc-file-link{
@@ -4702,6 +4718,9 @@ a.doc-file-link:hover{
 
 body.single-filters .__filter_models_tab table.single-filter--filtermodels tr > th:not(th:first-of-type),
 body.single-filters .__filter_models_tab table.single-filter--filtermodels tr > td:not(td:first-of-type){ text-align: center; }
+/**/
+body.single-filters a[data-type="URL"]{ color:#A2B900; font-weight:bold; font-style:italic; text-decoration:underline; }
+body.single-filters a[data-type="URL"]:hover{ color:black; font-style:inherit; text-decoration:none; }
 
 body.single-filters .__filter_spareparts_tab > .grid--content{
   display: grid;

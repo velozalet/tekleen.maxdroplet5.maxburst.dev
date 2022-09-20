@@ -1,4 +1,4 @@
-<section class="section" style="background: #F7F7F7;">
+<section class="section good-company__container">
 	<!-- good-->
 	<div class="good">
 		<div class="good__container container">
@@ -10,7 +10,7 @@
 				<?php if( get_sub_field('companies_post') ):?>
 					<?php foreach( get_sub_field('companies_post') as $post_company ):?>
 						<div class="good__col">
-							<div class="good__card" style="background-image:url(<?=wp_get_attachment_url( get_post_thumbnail_id($post_company->ID), 'thumbnail' );?>);background-size:cover;  min-height:135px;"></div>
+							<div class="good__card" style="background-image:url(<?=wp_get_attachment_url( get_post_thumbnail_id($post_company->ID), 'thumbnail' );?>);"></div>
 						</div>
 					<?php endforeach;?>
 				<?php endif;?>

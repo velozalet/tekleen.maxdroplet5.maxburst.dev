@@ -1,3 +1,5 @@
+<?php if( get_sub_field('trade_shows_post') ):?>
+<?php $trade_shows_post_cnt = count( get_sub_field('trade_shows_post') );?>
 <section class="section">
 	<div class="follow">
 		<div class="follow__container container">
@@ -9,7 +11,7 @@
 				<div class="follow__grid">
 					<?php if( get_sub_field('trade_shows_post') ):?>
 					<?php foreach( get_sub_field('trade_shows_post') as $trade_shows_post ):?>
-						<div class="follow__col">
+						<div class="follow__col <?=($trade_shows_post_cnt == 1) ? '': 'follow__col-border';?>">
 							<div class="follow__card">
 								<img class="follow__logo" src="<?=get_field('logo',$trade_shows_post->ID)?>" alt="<?=get_bloginfo('name');?>">
 								<div class="follow__data">
@@ -66,3 +68,4 @@
 		</div>
 	</div>
 </section>
+<?php endif;?>

@@ -26,7 +26,7 @@
                     <form class="filter__form" action="#">
                         <div class="filter__field">
                             <img class="filter__icon" src="<?php echo get_stylesheet_directory_uri(); ?>/img/general/icons/search.svg" alt="">
-                            <input id="filter__input_caseStudies" class="filter__input" type="text" placeholder="Search">
+                            <input id="filter__input_caseStudies" class="filter__input" type="text" placeholder="Search by title">
                         </div>
                     </form>
                     <ul class="filter__list is-accent">
