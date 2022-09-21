@@ -4785,6 +4785,26 @@ body.single-filters .__filter_documentation_tab > div > input{ padding-left:10px
 }
 
 
+
+.single-trade-show-container .announcements-single-grid-container .grid-container-item .trade-card--grid {
+  display: grid;
+  grid-template-columns: 1fr 40%;
+  grid-template-rows: 1fr;
+  align-items: center;
+}
+.single-trade-show-container .main__grid{ justify-content:start; }
+.single-trade-show-container .main__grid .breadcrumbs{ margin-bottom:60px; }
+.single-trade-show-container .announcements-single-grid-container .grid-container-item h1{ text-align:center; margin-bottom:22px; color:#A2B900; line-height:1}
+.single-trade-show-container .announcements-single-grid-container .grid-container-item h2,
+.single-trade-show-container .announcements-single-grid-container .grid-container-item h3,
+.single-trade-show-container .announcements-single-grid-container .grid-container-item h4{ line-height:1; }
+.single-trade-show-container .announcements-single-grid-container .trade-card--grid-item-photo{ margin-left:40px; }
+.single-trade-show-container .announcements-single-grid-container .trade-card--grid-item-photo img{ max-width:100%; height:auto; }
+.single-trade-show-container .announcements-single-grid-container .grid-container-item .trade-card--grid .trade-card--grid-item-text{ order:1; }
+.single-trade-show-container .announcements-single-grid-container .grid-container-item .trade-card--grid .trade-card--grid-item-photo{ order:2; }
+
+
+
 @media (max-width: 665px){
   body.single-filters .__filter_spareparts_tab .grid--content{ grid-template-columns: repeat(1, 1fr); }
   body.single-filters .__filter_spareparts_tab .grid--content figure{ order: 2; }
@@ -4799,6 +4819,11 @@ body.single-filters .__filter_documentation_tab > div > input{ padding-left:10px
 
   body.single-filters .__filter_documentation_tab > div{ display: block; }
   body.single-filters .__filter_documentation_tab > div > input { width:100%; }
+
+  .single-trade-show-container .announcements-single-grid-container .grid-container-item .trade-card--grid { grid-template-columns: 1fr; }
+  .single-trade-show-container .announcements-single-grid-container .grid-container-item .trade-card--grid .trade-card--grid-item-text{ order:2; text-align:center; }
+  .single-trade-show-container .announcements-single-grid-container .grid-container-item .trade-card--grid .trade-card--grid-item-photo{ order:1; margin-left:0; text-align:center; margin-bottom:25px; }
+  .single-trade-show-container .announcements-single-grid-container .grid-container-item .trade-card--grid .trade-card--grid-item-text .trade-card__body{ text-align:start; padding-top:0; }
 }
 
 
